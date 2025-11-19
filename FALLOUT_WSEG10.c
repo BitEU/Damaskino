@@ -44,6 +44,7 @@
 #include <math.h>
 #include <time.h>
 #include <ctype.h>
+#include "terrain_data.h"
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
@@ -53,6 +54,11 @@
 #define GRID_SIZE 80                  // 80x80 grid
 #define GRID_RESOLUTION_KM 2.0        // 2 km per cell
 #define MAX_DOWNWIND_KM 160.0         // 160 km maximum range
+
+// Terrain configuration
+#define MAX_TERRAIN_DIM 50
+#define ELEV_SCALE 306.67             // Convert 4-bit (0-15) to meters: 4600/15
+#define ELEV_OFFSET -100.0
 
 // Particle size classes (WSEG-10 distribution)
 #define NUM_PARTICLE_CLASSES 12
@@ -116,6 +122,12 @@ typedef struct {
 } GridCell;
 
 typedef struct {
+    unsigned char data[MAX_TERRAIN_DIM*MAX_TERRAIN_DIM];
+    int w,h;
+    int active;
+} TerrainData;
+
+typedef struct {
     WeaponParams weapon;
     AtmosphereModel atmosphere;
     CloudModel cloud;
@@ -123,11 +135,27 @@ typedef struct {
     GridCell grid[GRID_SIZE][GRID_SIZE];
     int gz_x, gz_y;                   // Ground zero coordinates
     double time_since_burst_hr;       // Reference time for dose rate
+    TerrainData terrain;
 } FalloutModel;
+
+// Location names for terrain tiles
+static const char* LOCATION_NAMES[36] = {
+    "FLAT (NO TERRAIN)","Los Angeles","San Diego","San Francisco","Denver",
+    "NORAD Peterson SFB","Washington D.C.","Miami","Kings Bay Naval Base",
+    "VLF Lualualei","Chicago","Barksdale AFB","VFL Cutler","Whiteman AFB",
+    "Malmstrom AFB","Offutt AFB","Las Vegas","Jamesburg NJ","McGuire-Dix",
+    "Camp Evans","Kirtland AFB","New York","Minot AFB","Philadelphia",
+    "Raven Rock","St Marys Summa","Dallas-Fort Worth","Houston","Pantex Plant",
+    "Hill AFB","Salt Lake City","Norfolk Naval","Pentagon","Jim Creek",
+    "Naval Base Kitsap","F.E. Warren AFB"
+};
 
 // Function prototypes
 void print_teletype_banner(void);
 void initialize_model(FalloutModel* model);
+int select_location(FalloutModel* model);
+int load_terrain(FalloutModel* model, int loc);
+double get_terrain_elev(FalloutModel* model, double x_km, double y_km);
 void input_weapon_parameters(FalloutModel* model);
 void input_wind_profile(FalloutModel* model);
 void calculate_cloud_parameters(FalloutModel* model);
@@ -159,6 +187,7 @@ int main(void) {
         printf("========================================================\n");
         
         initialize_model(&model);
+        if(!select_location(&model))continue;
         input_weapon_parameters(&model);
         input_wind_profile(&model);
         
@@ -234,6 +263,66 @@ void initialize_model(FalloutModel* model) {
         model->atmosphere.layers[i].direction_deg = 270.0;  // From west
     }
     model->atmosphere.shear_factor = 1.0;
+    model->terrain.active = 0;
+}
+
+// Select target location and load terrain
+int select_location(FalloutModel* model) {
+    char input[80];
+    printf("\n*** TARGET LOCATION ***\n\n");
+    printf(" 0: FLAT (no terrain)\n");
+    for(int i=1;i<=35;i++)printf("%2d: %s\n",i,LOCATION_NAMES[i]);
+    printf("\nSELECT LOCATION (0-35): ");
+    if(!fgets(input,sizeof(input),stdin))exit(0);
+    if(strcmp(trim_input(input),"QUIT")==0)exit(0);
+    int loc;
+    if(sscanf(input,"%d",&loc)!=1||loc<0||loc>35){
+        printf("ERROR: Enter 0-35.\n");return 0;
+    }
+    if(loc==0){model->terrain.active=0;printf("\nUsing flat terrain model.\n");}
+    else if(!load_terrain(model,loc)){
+        printf("ERROR: Cannot load terrain for %s\n",LOCATION_NAMES[loc]);return 0;
+    }else printf("\nLoaded terrain: %s (%dx%d)\n",LOCATION_NAMES[loc],model->terrain.w,model->terrain.h);
+    return 1;
+}
+
+// Load terrain from embedded data (4-bit delta encoded)
+int load_terrain(FalloutModel* model, int loc) {
+    if(loc<1||loc>35)return 0;
+    int off=TERRAIN_INDEX[loc-1][0],len=TERRAIN_INDEX[loc-1][1];
+    if(len<6)return 0;
+    const unsigned char*p=TERRAIN_BLOB+off;
+    model->terrain.w=p[0]|(p[1]<<8);
+    model->terrain.h=p[2]|(p[3]<<8);
+    int datalen=p[4]|(p[5]<<8);
+    p+=6;
+    // Decode 4-bit delta: first byte has first_val in high nibble
+    int idx=0,val=(p[0]>>4)&0x0F;
+    model->terrain.data[idx++]=val;
+    // Unpack remaining nibbles as deltas
+    int nibble=1;  // Start from low nibble of first byte
+    for(int i=0;i<datalen&&idx<MAX_TERRAIN_DIM*MAX_TERRAIN_DIM;){
+        int d;
+        if(nibble&1)d=p[i++]&0x0F;
+        else d=(p[i]>>4)&0x0F;
+        nibble++;
+        val+=d-8;  // Delta is stored as 0-15, subtract 8 for -7..+7
+        if(val<0)val=0;if(val>15)val=15;
+        model->terrain.data[idx++]=val;
+    }
+    model->terrain.active=1;
+    return 1;
+}
+
+// Get terrain elevation at position (km from GZ)
+double get_terrain_elev(FalloutModel* model, double x_km, double y_km) {
+    if(!model->terrain.active)return 0.0;
+    // Map km to terrain grid (terrain covers ~200km, centered)
+    double scale=200.0/model->terrain.w;
+    int tx=(int)((x_km+100.0)/scale);
+    int ty=(int)((y_km+100.0)/scale);
+    if(tx<0||tx>=model->terrain.w||ty<0||ty>=model->terrain.h)return 0.0;
+    return model->terrain.data[ty*model->terrain.w+tx]*ELEV_SCALE+ELEV_OFFSET;
 }
 
 // Input weapon parameters
@@ -597,25 +686,58 @@ void calculate_transport_and_deposition(FalloutModel* model, int particle_class)
                 // Grid cell position relative to GZ (km)
                 double cell_x_km = (gx - model->gz_x) * GRID_RESOLUTION_KM;
                 double cell_y_km = (gy - model->gz_y) * GRID_RESOLUTION_KM;
-                
+
                 // Distance from landing point
                 double dx = cell_x_km - landing_x_km;
                 double dy = cell_y_km - landing_y_km;
-                
+
                 // Gaussian deposition
                 double deposition = gaussian_plume(dx, dy, sigma_km, sigma_km);
-                
+
+                // Terrain effects on deposition
+                double terrain_mod = 1.0;
+                if (model->terrain.active) {
+                    double elev = get_terrain_elev(model, cell_x_km, cell_y_km);
+                    // Higher elevation = earlier arrival, modified deposition
+                    // Get terrain gradient for wind blocking effect
+                    double elev_n = get_terrain_elev(model, cell_x_km, cell_y_km + GRID_RESOLUTION_KM);
+                    double elev_s = get_terrain_elev(model, cell_x_km, cell_y_km - GRID_RESOLUTION_KM);
+                    double elev_e = get_terrain_elev(model, cell_x_km + GRID_RESOLUTION_KM, cell_y_km);
+                    double elev_w = get_terrain_elev(model, cell_x_km - GRID_RESOLUTION_KM, cell_y_km);
+
+                    // Wind direction (transport TO)
+                    double wdir = (model->atmosphere.layers[0].direction_deg + 180.0) * M_PI / 180.0;
+                    // Gradient in wind direction
+                    double grad_x = (elev_e - elev_w) / (2.0 * GRID_RESOLUTION_KM * 1000.0);
+                    double grad_y = (elev_n - elev_s) / (2.0 * GRID_RESOLUTION_KM * 1000.0);
+                    double slope_factor = grad_x * cos(wdir) + grad_y * sin(wdir);
+
+                    // Leeward slopes: enhanced deposition (1.5x), Windward: reduced (0.6x)
+                    terrain_mod = 1.0 - slope_factor * 50.0;
+                    if (terrain_mod < 0.6) terrain_mod = 0.6;
+                    if (terrain_mod > 1.5) terrain_mod = 1.5;
+
+                    // Valley concentration effect (low spots collect more)
+                    double local_avg = (elev_n + elev_s + elev_e + elev_w) / 4.0;
+                    if (elev < local_avg - 50.0) terrain_mod *= 1.3; // Valley
+                    if (elev > local_avg + 100.0) terrain_mod *= 0.8; // Ridge
+                }
+
                 // Add activity (scaled by release point weight)
-                double activity_contribution = class_activity * deposition / num_release_points;
-                
+                double activity_contribution = class_activity * deposition / num_release_points * terrain_mod;
+
                 // Convert from point source to area dose rate
-                // Assume activity spreads over 1 km² 
+                // Assume activity spreads over 1 km²
                 double dose_rate = activity_contribution / (M_PI * sigma_km * sigma_km);
-                
+
                 model->grid[gy][gx].dose_rate_rhr += dose_rate;
                 
-                // Track arrival time (first particle to arrive)
-                double arrival_time = model->cloud.stabilization_time_min / 60.0 + total_fall_time_hr;
+                // Track arrival time (adjusted for terrain elevation)
+                double terrain_elev_km = model->terrain.active ?
+                    get_terrain_elev(model, cell_x_km, cell_y_km) / 1000.0 : 0.0;
+                double elev_time_adj = terrain_elev_km / (get_settling_velocity(diameter, 0) * 3.6);
+                double arrival_time = model->cloud.stabilization_time_min / 60.0 + total_fall_time_hr - elev_time_adj;
+                if (arrival_time < 0.1) arrival_time = 0.1;
                 if (model->grid[gy][gx].arrival_time_hr == 0 || arrival_time < model->grid[gy][gx].arrival_time_hr) {
                     model->grid[gy][gx].arrival_time_hr = arrival_time;
                 }

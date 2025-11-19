@@ -1,0 +1,1088 @@
+﻿State,Target,Category,Lat,Lng,Yield,Type
+Alabama,Birmingham,Economic,33.5816,-86.8321,500kt,Air Burst
+Alabama,Birmingham,Economic,33.5018,-86.8416,500kt,Air Burst
+Alabama,Mobile,Economic,30.6296,-88.0515,500kt,Air Burst
+Alabama,Mobile,Economic,30.7039,-88.0478,500kt,Air Burst
+Alabama,Huntsville,Economic,34.7589,-86.6254,500kt,Air Burst
+Alabama,Huntsville,Economic,34.6853,-86.5725,200kt,Surface Burst
+Alabama,Montgomery,Government,32.3204,-86.292,300kt,Air Burst
+Alabama,Montgomery,Government,32.3055,-86.2861,300kt,Air Burst
+Alabama,Fort Rucker,Military,31.2783,-85.7211,500kt,Air Burst
+Alabama,Fort Rucker,Military,31.346,-85.6695,500kt,Air Burst
+Alabama,Maxwell AFB,Military,32.3833,-86.342,500kt,Air Burst
+Alabama,Maxwell AFB,Military,32.4047,-86.4264,500kt,Air Burst
+Alabama,Maxwell AFB,Military,32.3254,-86.3429,500kt,Surface Burst
+Alabama,Maxwell AFB,Military,32.3347,-86.3386,500kt,Surface Burst
+Alabama,Redstone Arsenal,Military,34.6472,-86.64,500kt,Air Burst
+Alabama,Redstone Arsenal,Military,34.716,-86.7142,500kt,Air Burst
+Alabama,Redstone Arsenal,Military,34.6638,-86.6037,200kt,Surface Burst
+Alabama,Redstone Arsenal,Military,34.6354,-86.7058,200kt,Surface Burst
+Alaska,Clear AFB,Military,64.3064,-149.1866,100kt,Air Burst
+Alaska,Clear AFB,Military,64.3184,-149.2419,100kt,Air Burst
+Alaska,Elmendorf AFB,Military,61.2477,-149.7761,200kt,Surface Burst
+Alaska,Elmendorf AFB,Military,61.269,-149.7925,200kt,Surface Burst
+Alaska,Elmendorf AFB,Military,61.199,-149.8739,400kt,Air Burst
+Alaska,Elmendorf AFB,Military,61.188,-149.8473,400kt,Air Burst
+Alaska,Elmendorf AFB,Military,61.2927,-149.8493,400kt,Air Burst
+Alaska,Fort Wainwright,Military,64.8278,-147.6429,800kt,Air Burst
+Alaska,Fort Wainwright,Military,64.8278,-147.6429,300kt,Surface Burst
+Alaska,Fort Greely,Military,63.8858,-145.6076,300kt,Surface Burst
+Alaska,Fort Greely,Military,63.8858,-145.6076,300kt,Surface Burst
+Alaska,Anchorage,Economic,61.1539,-149.9492,1000kt,Air Burst
+Alaska,Anchorage,Economic,61.2367,-149.962,1000kt,Air Burst
+Alaska,Fairbanks,Economic,64.7984,-147.7367,400kt,Air Burst
+Alaska,Fairbanks,Economic,64.8953,-147.7261,400kt,Air Burst
+Alaska,Juneau,Government,58.3542,-134.3565,200kt,Air Burst
+Alaska,Juneau,Government,58.3067,-134.4312,200kt,Air Burst
+Arizona,Phoenix,Government,33.3852,112.0114,800kt,Air Burst
+Arizona,Phoenix,Government,33.4598,112.0899,800kt,Air Burst
+Arizona,Phoenix,Government,33.4762,112.0293,800kt,Air Burst
+Arizona,Phoenix,Government,33.4824,-112.0663,200kt,Surface Burst
+Arizona,Phoenix International Airport,Economic,33.4287,-112.0054,200kt,Surface Burst
+Arizona,Glendale,Economic,33.5702,-112.1986,500kt,Air Burst
+Arizona,Glendale,Economic,33.5003,-112.2145,500kt,Air Burst
+Arizona,Gilbert,Economic,33.3755,-111.8518,500kt,Air Burst
+Arizona,Scottsdale,Economic,33.5137,-111.9737,800kt,Air Burst
+Arizona,Tuscon,Economic,32.2337,-110.9344,500kt,Air Burst
+Arizona,Tuscon,Economic,32.1689,-110.903,500kt,Air Burst
+Arizona,Tuscon International Airport,Economic,32.0675,-110.9752,100kt,Surface Burst
+Arizona,Hoover Dam,Economic,35.9938,-114.7696,200kt,Surface Burst
+Arizona,Hoover Dam,Economic,35.9937,-114.7697,300kt,Surface Burst
+Arizona,Mesa,Economic,33.4519,-111.7861,1000kt,Air Burst
+Arizona,Mesa,Economic,33.3937,-111.8106,1000kt,Air Burst
+Arizona,Chandler,Economic,33.2755,-111.7787,500kt,Air Burst
+Arizona,Luke AFB,Military,33.5285,-112.4138,200kt,Surface Burst
+Arizona,Luke AFB,Military,33.5207,-112.3442,200kt,Surface Burst
+Arizona,Davis-Montahn AFB,Military,32.0993,-110.8994,200kt,Surface Burst
+Arizona,Davis-Montahn AFB,Military,32.1161,-110.8827,200kt,Surface Burst
+Arizona,Barry M. Goldwater Range,Military,32.6904,-113.467,200kt,Surface Burst
+Arizona,Barry M. Goldwater Range,Military,32.5962,-113.4176,200kt,Surface Burst
+Arizona,Barry M. Goldwater Range,Military,32.7151,-113.5221,200kt,Surface Burst
+Arizona,Barry M. Goldwater Range,Military,32.7154,-113.5123,500kt,Air Burst
+Arizona,Barry M. Goldwater Range,Military,32.608,-113.4338,500kt,Air Burst
+Arizona,Glen Canyon Dam,Economic,36.9294,-111.5303,200kt,Surface Burst
+Arizona,Glen Canyon Dam,Economic,36.9617,-111.5266,200kt,Surface Burst
+Arkansas,Little Rock,Government,34.7989,-92.3087,1000kt,Air Burst
+Arkansas,Little Rock,Government,34.7379,-92.2541,1000kt,Air Burst
+Arkansas,Little Rock AFB,Military,34.8713,-92.2557,1000kt,Air Burst
+Arkansas,Little Rock AFB,Military,34.9568,-92.175,1000kt,Air Burst
+Arkansas,Little Rock AFB,Military,34.8307,-92.2477,400kt,Surface Burst
+Arkansas,Little Rock AFB,Military,34.8724,-92.1576,400kt,Surface Burst
+Arkansas,Fort Chaffee,Military,35.2001,-94.1654,500kt,Air Burst
+Arkansas,Fort Chaffee,Military,35.1974,-94.0943,500kt,Air Burst
+Arkansas,Pine Bluff Arsenal,Military,34.2641,-92.1192,1000kt,Surface Burst
+Arkansas,Pine Bluff Arsenal,Military,34.3648,-92.0283,1000kt,Surface Burst
+California,San Francisco,Economic,37.7594,-122.4845,800kt,Air Burst
+California,San Francisco,Economic,37.7328,-122.4173,800kt,Air Burst
+California,San Francisco,Economic,37.735,-122.4187,800kt,Air Burst
+California,S.F. International Airport,Transportation,37.6582,-122.4405,300kt,Surface Burst
+California,S.F. International Airport,Transportation,37.6583,-122.4404,200kt,Surface Burst
+California,San Jose,Economic,37.3938,-121.8624,1000kt,Air Burst
+California,San Jose,Economic,37.2917,-121.9286,1000kt,Air Burst
+California,Palo Alto,Economic,37.4126,-122.104,500kt,Air Burst
+California,Palo Alto,Economic,37.5008,-122.1958,500kt,Air Burst
+California,Cupertino,Economic,37.377,-122.03,1000kt,Air Burst
+California,Oakland,Economic,37.7991,-122.264,500kt,Air Burst
+California,Oakland International Airport,Transportation,37.7444,-122.1906,400kt,Surface Burst
+California,Martinez,Economic,38.0798,-122.0767,500kt,Air Burst
+California,Fremont,Economic,37.553,-122.0192,400kt,Air Burst
+California,Travis AFB,Military,38.2843,-121.9452,100kt,Surface Burst
+California,Travis AFB,Military,38.2586,-122.0034,100kt,Surface Burst
+California,Travis AFB,Military,38.2207,-121.9119,100kt,Surface Burst
+California,Travis AFB,Military,38.3299,-122.0041,100kt,Surface Burst
+California,Sacramento,Government,38.5907,-121.547,800kt,Air Burst
+California,Sacramento,Government,38.5204,-121.4655,800kt,Air Burst
+California,Sacramento,Government,38.6177,-121.555,800kt,Air Burst
+California,Vanderberg AFB,Military,34.7282,-120.4661,100kt,Surface Burst
+California,Vanderberg AFB,Military,34.7763,-120.4801,100kt,Surface Burst
+California,Vanderberg AFB,Military,34.8112,-120.4568,100kt,Surface Burst
+California,Vanderberg AFB,Military,34.821,-120.5616,100kt,Surface Burst
+California,Vanderberg AFB,Military,34.7378,-120.4923,100kt,Surface Burst
+California,Vanderberg AFB,Military,34.7112,-120.4616,100kt,Surface Burst
+California,Vanderberg AFB,Military,34.7938,-120.4737,800kt,Air Burst
+California,Edwards AFB,Military,34.9764,-117.9325,100kt,Surface Burst
+California,Edwards AFB,Military,34.9022,-117.8762,100kt,Surface Burst
+California,Edwards AFB,Military,34.9806,-117.9355,100kt,Surface Burst
+California,Edwards Air Forece Base,Military,34.8783,-117.9259,800kt,Air Burst
+California,Edwards Air Forece Base,Military,34.9092,-117.8443,800kt,Air Burst
+California,Palmdale,Military,34.58,-118.1092,400kt,Air Burst
+California,Palmdale,Military,34.5785,-118.1098,400kt,Air Burst
+California,Oxnard,Economic,34.181,-119.1929,500kt,Air Burst
+California,Ventura,Economic,34.2465,-119.2013,800kt,Air Burst
+California,Glendale,Economic,34.0942,-118.257,500kt,Air Burst
+California,Long Beach,Transportation,33.7232,-118.1892,400kt,Surface Burst
+California,Long Beach,Transportation,33.7886,-118.136,800kt,Air Burst
+California,Los Angeles,Economic,34.0895,-118.2056,1000kt,Air Burst
+California,L.A. International Airport,Transportation,33.9943,-118.3649,200kt,Surface Burst
+California,L.A. International Airport,Transportation,34.0044,-118.4633,200kt,Surface Burst
+California,Santa Ana,Economic,33.7194,-117.8598,500kt,Air Burst
+California,Santa Ana,Economic,33.7123,-117.8707,500kt,Air Burst
+California,Anaheim,Economic,33.8756,-117.9631,400kt,Air Burst
+California,Riverside,Economic,33.9597,-117.4243,500kt,Air Burst
+California,Riverside,Economic,33.9595,-117.3613,500kt,Air Burst
+California,San Bernardino,Economic,34.0747,-117.3218,500kt,Air Burst
+California,San Bernardino,Economic,34.1025,-117.2502,500kt,Air Burst
+California,San Diego Naval Air Station,Military,32.6942,-117.242,1000kt,Surface Burst
+California,San Diego Naval Air Station,Military,32.6589,-117.1532,1000kt,Surface Burst
+California,San Diego Naval Air Station,Military,32.687,-117.2568,1000kt,Surface Burst
+California,San Diego Naval Air Station,Military,32.7312,-117.2094,1000kt,Air Burst
+California,San Diego,Military,32.7416,-117.1631,800kt,Air Burst
+California,San Diego,Military,32.715,-117.2116,800kt,Air Burst
+California,San Diego,Military,32.6979,-117.1081,800kt,Air Burst
+California,Fullerton,Economic,33.8382,-117.8958,1000kt,Air Burst
+California,Pomona,Economic,33.9973,-117.7416,1000kt,Air Burst
+California,Irvine,Economic,33.7077,-117.8014,500kt,Air Burst
+California,Ontario,Economic,33.9999,-117.6611,1000kt,Air Burst
+California,Burbank,Economic,34.2454,-118.3284,800kt,Air Burst
+California,Santa Monica,Economic,34.0654,-118.5483,400kt,Air Burst
+California,Castle AFB,Military,34.7625,-120.5024,100kt,Surface Burst
+California,Castle AFB,Military,34.7618,-120.5375,100kt,Surface Burst
+California,Beale AFB,Military,39.0635,-121.3911,400kt,Air Burst
+California,Beale AFB,Military,39.132,-121.3377,400kt,Surface Burst
+California,Beale AFB,Military,39.0752,-121.3768,400kt,Surface Burst
+California,Los Angelese AFB,Military,33.9614,-118.4466,400kt,Surface Burst
+California,March AFB,Military,33.8947,-117.3129,500kt,Air Burst
+California,March AFB,Military,33.8954,-117.2914,200kt,Surface Burst
+California,March AFB,Military,33.9251,-117.2892,200kt,Surface Burst
+California,Fresno,Economic,36.705,-119.7277,600kt,Air Burst
+California,Fresno,Economic,36.8129,-119.7922,600kt,Air Burst
+California,Stockton,Economic,37.9568,-121.3428,400kt,Air Burst
+California,Stockton,Economic,37.9712,-121.3045,400kt,Air Burst
+California,Bakersfield,Economic,35.4154,-118.9542,500kt,Air Burst
+California,Bakersfield,Economic,35.4253,-119.021,500kt,Air Burst
+California,Chula Vista,Economic,32.5831,-117.0219,800kt,Air Burst
+California,Chula Vista,Economic,32.6305,-117.0722,800kt,Air Burst
+California,Lake Shasta Dam,Economic,40.7185,-122.4193,300kt,Surface Burst
+California,Lake Shasta Dam,Economic,40.7186,-122.4192,200kt,Surface Burst
+Colorado,Denver,Government,39.7791,-105.056,1000kt,Air Burst
+Colorado,Denver,Government,39.7144,-104.9916,1000kt,Air Burst
+Colorado,Denver,Government,39.7557,-104.9732,1000kt,Air Burst
+Colorado,Denver International Airport,Economic,39.881,-104.6626,200kt,Surface Burst
+Colorado,Denver International Airport,Economic,39.7965,-104.6482,200kt,Surface Burst
+Colorado,Boulder,Economic,39.9752,-105.3296,800kt,Air Burst
+Colorado,Colorado Springs,Economic,38.8598,-104.7985,1000kt,Air Burst
+Colorado,Colorado Springs,Economic,38.8043,-104.8527,1000kt,Air Burst
+Colorado,Colorado Springs,Economic,38.8657,-104.8176,300kt,Surface Burst
+Colorado,Colorado Springs,Economic,38.7921,-104.804,300kt,Surface Burst
+Colorado,Colorado Springs,Economic,38.8069,-104.8335,300kt,Surface Burst
+Colorado,Aurora,Economic,39.7194,-104.7745,500kt,Surface Burst
+Colorado,Aurora,Economic,39.7456,-104.7726,500kt,Surface Burst
+Colorado,Fort Collins,Military,40.5997,-105.0324,500kt,Surface Burst
+Colorado,Fort Collins,Military,40.5509,-105.0511,500kt,Surface Burst
+Colorado,Schriever AFB,Military,38.7758,-104.4858,500kt,Surface Burst
+Colorado,Schriever AFB,Military,38.7489,-104.4687,500kt,Surface Burst
+Colorado,Schriever AFB,Military,38.8428,-104.4904,800kt,Air Burst
+Colorado,Schriever AFB,Military,38.8208,-104.569,800kt,Air Burst
+Colorado,Peterson AFB,Military,38.7768,-104.6791,800kt,Surface Burst
+Colorado,Peterson AFB,Military,38.7974,-104.742,800kt,Surface Burst
+Colorado,Peterson AFB,Military,38.765,-104.6477,800kt,Surface Burst
+Colorado,Peterson AFB,Military,38.8462,-104.6971,1000kt,Air Burst
+Colorado,Peterson AFB,Military,38.7678,-104.6505,1000kt,Air Burst
+Colorado,Cheyenne Mountain,Military,38.8002,-104.8602,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.7095,-104.9293,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.6716,-104.8212,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.7084,-104.8393,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.7021,-104.8551,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.7927,-104.8434,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.7755,-104.8196,1000kt,Surface Burst
+Colorado,Cheyenne Mountain,Military,38.7526,-104.943,1000kt,Surface Burst
+Colorado,Buckley AFB,Military,39.6685,-104.8098,200kt,Surface Burst
+Colorado,Buckley AFB,Military,39.6418,-104.8227,500kt,Air Burst
+Colorado,Buckley AFB,Military,39.7062,-104.7961,500kt,Air Burst
+Colorado,Air Force Academy,Military,39.0221,-104.9077,800kt,Air Burst
+Colorado,Air Force Academy,Military,39.015,-104.8958,800kt,Air Burst
+Colorado,Air Force Academy,Military,39.0599,-104.8182,800kt,Air Burst
+Colorado,Air Force Academy,Military,39.0452,-104.8751,200kt,Surface Burst
+Colorado,Air Force Academy,Military,39.021,-104.81,200kt,Surface Burst
+Colorado,Fort Carson,Military,38.7327,-104.7787,1000kt,Air Burst
+Colorado,Fort Carson,Military,38.8002,-104.7633,1000kt,Air Burst
+Colorado,Fort Carson,Military,38.7688,-104.7666,200kt,Air Burst
+Colorado,Fort Carson,Military,38.7712,-104.8431,200kt,Air Burst
+Colorado,Fort Carson,Military,38.6829,-104.8163,200kt,Air Burst
+Connecticut,New London Submarine Base,Military,41.5553,-73.0328,1000kt,Air Burst
+Connecticut,New London Submarine Base,Military,41.6313,-73.0881,1000kt,Air Burst
+Connecticut,New London Submarine Base,Military,41.576,-73.1106,300kt,Air Burst
+Connecticut,New London Submarine Base,Military,41.581,-73.074,300kt,Air Burst
+Connecticut,New London Submarine Base,Military,41.6098,-73.1421,300kt,Air Burst
+Connecticut,New London Submarine Base,Military,41.6442,-73.0767,300kt,Air Burst
+Connecticut,Coast Guard Academy,Military,41.6181,-73.0227,400kt,Surface Burst
+Connecticut,Coast Guard Academy,Military,41.5705,-73.048,400kt,Surface Burst
+Connecticut,Bridgeport,Economic,41.2235,-73.2271,500kt,Air Burst
+Connecticut,Bridgeport,Economic,41.1245,-73.1959,500kt,Air Burst
+Connecticut,New Haven,Economic,41.3669,-72.8922,500kt,Air Burst
+Connecticut,New Haven,Economic,41.2592,-72.9131,500kt,Air Burst
+Connecticut,Stamford,Economic,41.0329,-73.5093,500kt,Air Burst
+Connecticut,Stamford,Economic,41.0811,-73.4742,500kt,Air Burst
+Connecticut,Hartford,Government,41.7472,-72.6519,200kt,Air Burst
+Connecticut,Hartford,Government,41.6971,-72.7426,200kt,Air Burst
+Delaware,Dover AFB,Military,39.1197,-75.4272,800kt,Air Burst
+Delaware,Dover AFB,Military,39.1315,-75.4877,800kt,Air Burst
+Delaware,Dover AFB,Military,39.1085,-75.4955,200kt,Surface Burst
+Delaware,Dover AFB,Military,39.1667,-75.5186,200kt,Surface Burst
+Delaware,Wilmington,Economic,39.7132,-75.5683,400kt,Air Burst
+Delaware,Wilmington,Economic,39.6841,-75.5558,400kt,Air Burst
+Delaware,Dover,Government,39.1424,-75.4671,300kt,Air Burst
+Delaware,Dover,Government,39.1974,-75.578,300kt,Air Burst
+Florida,Patrick AFB,Military,28.2561,-80.5447,500kt,Air Burst
+Florida,Patrick AFB,Military,28.3043,-80.6068,500kt,Air Burst
+Florida,Patrick AFB,Military,28.287,-80.5653,500kt,Surface Burst
+Florida,Patrick AFB,Military,28.2976,-80.5443,500kt,Surface Burst
+Florida,Tyndall AFB,Military,30.0728,-85.605,300kt,Air Burst
+Florida,Tyndall AFB,Military,30.0911,-85.5682,300kt,Air Burst
+Florida,Tyndall AFB,Military,30.0309,-85.6578,100kt,Surface Burst
+Florida,Tyndall AFB,Military,30.0196,-85.6453,100kt,Surface Burst
+Florida,MacDill AFB,Military,27.7938,-82.473,800kt,Air Burst
+Florida,MacDill AFB,Military,27.852,-82.4794,800kt,Air Burst
+Florida,MacDill AFB,Military,27.8189,-82.5633,200kt,Surface Burst
+Florida,MacDill AFB,Military,27.8633,-82.5654,200kt,Surface Burst
+Florida,Hurlburt Field,Military,30.4608,-86.6921,100kt,Surface Burst
+Florida,Hurlburt Field,Military,30.361,-86.7279,100kt,Surface Burst
+Florida,Hurlburt Field,Military,30.4754,-86.6593,500kt,Air Burst
+Florida,Hurlburt Field,Military,30.4436,-86.6641,500kt,Air Burst
+Florida,Eglin AFB,Military,30.432,-86.5119,400kt,Air Burst
+Florida,Eglin AFB,Military,30.4078,-86.5257,400kt,Air Burst
+Florida,Eglin AFB,Military,30.5222,-86.5251,200kt,Surface Burst
+Florida,Camp Blanding,Military,29.9365,-81.9152,300kt,Air Burst
+Florida,Camp Blanding,Military,29.8937,-82.028,300kt,Air Burst
+Florida,NAS Key West,Military,24.6072,-81.6391,200kt,Surface Burst
+Florida,NAS Key West,Military,24.5656,-81.6813,200kt,Surface Burst
+Florida,NAS Pensacola,Military,30.2911,-87.3722,500kt,Air Burst
+Florida,NAS Pensacola,Military,30.3276,-87.4071,500kt,Air Burst
+Florida,NAS Pensacola,Military,30.3927,-87.3391,200kt,Air Burst
+Florida,NAS Pensacola,Military,30.2867,-87.4071,200kt,Air Burst
+Florida,NAS Whiting Field,Military,30.7513,-87.0749,400kt,Air Burst
+Florida,NAS Whiting Field,Military,30.7022,-87.0672,400kt,Air Burst
+Florida,NAS Whiting Field,Military,30.7199,-87.0784,100kt,Air Burst
+Florida,NAS Whiting Field,Military,30.6798,-87.0869,100kt,Air Burst
+Florida,NS Mayport,Military,30.3442,-81.4356,1000kt,Air Burst
+Florida,NS Mayport,Military,30.4397,-81.415,1000kt,Air Burst
+Florida,NS Mayport,Military,30.4377,-81.3889,200kt,Surface Burst
+Florida,NS Mayport,Military,30.4261,-81.3849,200kt,Surface Burst
+Florida,Miami,Economic,25.8072,-80.2169,1000kt,Air Burst
+Florida,Miami,Economic,25.7577,-80.1891,1000kt,Air Burst
+Florida,Miami,Economic,25.7389,-80.201,1000kt,Air Burst
+Florida,Miami International Airport,Transportation,25.7988,-80.3385,200kt,Surface Burst
+Florida,Miami International Airport,Transportation,25.7348,-80.2264,200kt,Surface Burst
+Florida,Jacksonville,Economic,30.344,-81.6187,800kt,Air Burst
+Florida,Jacksonville,Economic,30.2722,-81.6499,800kt,Air Burst
+Florida,Tampa,Economic,27.8893,-82.3997,800kt,Air Burst
+Florida,Tampa,Economic,27.8842,-82.4612,800kt,Air Burst
+Florida,St. Petersburg,Economic,27.7074,-82.6686,400kt,Air Burst
+Florida,St. Petersburg,Economic,27.8379,-82.6939,400kt,Air Burst
+Florida,Orlando,Economic,28.5139,-81.3785,800kt,Air Burst
+Florida,Orlando,Economic,28.5623,-81.334,800kt,Air Burst
+Florida,Orlando International Airport,Transportation,28.4049,-81.2478,200kt,Surface Burst
+Florida,Orlando International Airport,Transportation,28.4546,-81.356,200kt,Surface Burst
+Florida,Sarasota,Economic,27.2703,-82.5052,500kt,Air Burst
+Florida,Sarasota,Economic,27.3281,-82.4748,500kt,Air Burst
+Florida,Cape Coral,Economic,26.5895,-82.007,500kt,Air Burst
+Florida,Cape Coral,Economic,26.5104,-81.9357,500kt,Air Burst
+Florida,Fort Myers,Economic,26.6551,-81.8084,500kt,Air Burst
+Florida,Fort Myers,Economic,26.5776,-81.8455,500kt,Air Burst
+Florida,Palm Bay,Economic,28.0766,-80.532,1000kt,Air Burst
+Florida,Tallahassee,Government,30.4247,-84.343,500kt,Air Burst
+Florida,Tallahassee,Government,30.4157,-84.2686,500kt,Air Burst
+Florida,Fort Lauderdale,Economic,26.0652,-80.0883,600kt,Air Burst
+Florida,Fort Lauderdale,Economic,26.1467,-80.1355,600kt,Air Burst
+Florida,West Palm Beach,Economic,26.7101,-80.0362,400kt,Air Burst
+Florida,West Palm Beach,Economic,26.7163,-80.0962,400kt,Air Burst
+Florida,Cape Canaveral,Economic,28.3963,-80.5748,500kt,Air Burst
+Florida,Cape Canaveral,Economic,28.3861,-80.6026,500kt,Air Burst
+Florida,Hialeah,Economic,25.9224,-80.2536,400kt,Air Burst
+Georgia,Atlanta,Economic,33.7658,-84.3575,1000kt,Air Burst
+Georgia,Atlanta,Economic,33.8061,-84.4405,1000kt,Air Burst
+Georgia,Atlanta,Economic,33.7491,-84.4344,500kt,Air Burst
+Georgia,Atlanta,Economic,33.7882,-84.352,500kt,Air Burst
+Georgia,Atlanta International Airport,Economic,33.6315,-84.3953,200kt,Surface Burst
+Georgia,Atlanta International Airport,Economic,33.6865,-84.4261,200kt,Surface Burst
+Georgia,Columbus,Economic,32.4222,-84.9441,500kt,Air Burst
+Georgia,Columbus,Economic,32.4873,-84.996,500kt,Air Burst
+Georgia,Augusta,Economic,33.417,-82.038,500kt,Air Burst
+Georgia,Augusta,Economic,33.5009,-82.0025,500kt,Air Burst
+Georgia,Fort Benning,Military,32.4165,-84.9345,1000kt,Air Burst
+Georgia,Fort Benning,Military,32.3481,-84.9846,200kt,Surface Burst
+Georgia,Fort Benning,Military,32.3188,-84.9188,200kt,Surface Burst
+Georgia,Fort Gordon,Military,33.4467,-82.1271,500kt,Air Burst
+Georgia,Fort Gordon,Military,33.406,-82.2017,500kt,Air Burst
+Georgia,Fort Stewart,Military,31.8601,-81.5713,500kt,Air Burst
+Georgia,Fort Stewart,Military,31.8627,-81.6395,500kt,Air Burst
+Georgia,Fort Stewart,Military,31.8715,-81.6244,300kt,Surface Burst
+Georgia,Fort Stewart,Military,31.9028,-81.5495,300kt,Surface Burst
+Georgia,Moody AFB,Military,30.9288,-83.1451,400kt,Air Burst
+Georgia,Moody AFB,Military,30.915,-83.1606,200kt,Surface Burst
+Georgia,NSB Kings Bay,Military,30.801,-81.5894,1000kt,Air Burst
+Georgia,NSB Kings Bay,Military,30.8435,-81.5409,1000kt,Air Burst
+Georgia,NSB Kings Bay,Military,30.7795,-81.5414,400kt,Surface Burst
+Georgia,NSB Kings Bay,Military,30.7821,-81.6159,400kt,Surface Burst
+Georgia,NSB Kings Bay,Military,30.7426,-81.5475,400kt,Surface Burst
+Georgia,Robins AFB,Military,32.6926,-83.5805,1000kt,Air Burst
+Hawaii,NS Pearl Harbor,Economic,21.3483,-157.9239,800kt,Air Burst
+Hawaii,NS Pearl Harbor,Economic,21.3688,-157.9362,800kt,Air Burst
+Hawaii,NS Pearl Harbor,Economic,21.4071,-157.8716,800kt,Air Burst
+Hawaii,NS Pearl Harbor,Military,21.395,-157.8591,300kt,Surface Burst
+Hawaii,NS Pearl Harbor,Military,21.4123,-157.8773,300kt,Surface Burst
+Hawaii,NS Pearl Harbor,Military,21.2821,-157.8957,300kt,Surface Burst
+Hawaii,Barking Sands Missile Range,Military,21.3719,-157.8935,300kt,Surface Burst
+Hawaii,Barking Sands Missile Range,Military,21.311,-157.8662,300kt,Surface Burst
+Hawaii,Barking Sands Missile Range,Military,21.3426,-157.8898,300kt,Surface Burst
+Hawaii,Barking Sands Missile Range,Military,21.361,-157.8873,1000kt,Air Burst
+Hawaii,NCTAMS,Military,21.4517,-157.9879,500kt,Surface Burst
+Hawaii,NCTAMS,Military,21.5399,-158.0016,500kt,Surface Burst
+Hawaii,MCB,Military,21.4648,-157.7028,100kt,Surface Burst
+Hawaii,MCB,Military,21.4415,-157.7995,100kt,Surface Burst
+Hawaii,MCB,Military,21.4868,-157.7034,400kt,Air Burst
+Hawaii,MCB,Military,21.4072,-157.8123,400kt,Air Burst
+Hawaii,Honolulu,Government,21.2848,-157.8265,1000kt,Air Burst
+Hawaii,Honolulu,Government,21.28,-157.8704,1000kt,Air Burst
+Hawaii,Honolulu,Government,21.3319,-157.8948,200kt,Surface Burst
+Hawaii,Honolulu,Government,21.3362,-157.8846,200kt,Surface Burst
+Idaho,Mountain Home AFB,Military,43.0368,-115.8149,800kt,Air Burst
+Idaho,Mountain Home AFB,Military,43.0076,-115.8224,800kt,Air Burst
+Idaho,Mountain Home AFB,Military,42.972,-115.8277,400kt,Surface Burst
+Idaho,Mountain Home AFB,Military,43.0096,-115.8397,400kt,Surface Burst
+Idaho,Mountain Home AFB,Military,42.9638,-115.909,400kt,Surface Burst
+Idaho,Boise,Government,43.6117,-116.197,500kt,Air Burst
+Idaho,Boise,Government,43.6277,-116.2501,500kt,Air Burst
+Illinois,Chicago,Economic,41.9027,-87.6014,1000kt,Air Burst
+Illinois,Chicago,Economic,41.9147,-87.6409,1000kt,Air Burst
+Illinois,Chicago,Economic,41.8772,-87.6527,1000kt,Air Burst
+Illinois,Chicago,Economic,41.8508,-87.5834,1000kt,Air Burst
+Illinois,Chicago,Economic,41.8149,-87.6461,400kt,Surface Burst
+Illinois,Chicago International Airport,Economic,41.9884,-87.9142,300kt,Surface Burst
+Illinois,Chicago International Airport,Economic,41.9943,-87.8988,300kt,Surface Burst
+Illinois,Aurora,Economic,41.7007,-88.3752,800kt,Air Burst
+Illinois,Aurora,Economic,41.7395,-88.3784,800kt,Air Burst
+Illinois,Rockford,Economic,42.2234,-89.1462,800kt,Air Burst
+Illinois,Rockford,Economic,42.2533,-89.0689,800kt,Air Burst
+Illinois,Springfield,Government,39.8164,-89.698,200kt,Air Burst
+Illinois,Springfield,Government,39.7945,-89.6627,200kt,Air Burst
+Illinois,Rock Island Arsenal,Economic,41.4985,-90.5853,500kt,Air Burst
+Illinois,Rock Island Arsenal,Economic,41.5015,-90.5771,500kt,Air Burst
+Illinois,Rock Island Arsenal,Economic,41.5566,-90.5391,100kt,Air Burst
+Illinois,Rock Island Arsenal,Economic,41.525,-90.5945,100kt,Air Burst
+Illinois,Scott AFB,Military,38.4829,-89.8585,500kt,Air Burst
+Illinois,Scott AFB,Military,38.4993,-89.8769,500kt,Air Burst
+Indiana,Indianaopolis,Economic,39.7746,-86.2181,800kt,Air Burst
+Indiana,Indianaopolis,Economic,39.8091,-86.1875,800kt,Air Burst
+Indiana,Indianaopolis,Economic,39.7394,-86.2214,800kt,Air Burst
+Indiana,NSWC Crane Division,Military,40.319,-86.1425,400kt,Air Burst
+Indiana,NSWC Crane Division,Military,40.258,-86.1615,400kt,Air Burst
+Indiana,Grissom Air Reserve Base,Military,40.6509,-86.1913,400kt,Surface Burst
+Indiana,Grissom Air Reserve Base,Military,40.7168,-86.2092,400kt,Surface Burst
+Indiana,Indianapolis,Government,39.8332,-86.2141,1000kt,Air Burst
+Indiana,Indianapolis,Government,39.7199,-86.1831,1000kt,Air Burst
+Indiana,Indianapolis,Government,39.7146,-86.2197,1000kt,Air Burst
+Indiana,Fort Wayne,Economic,41.0842,-85.1704,1000kt,Air Burst
+Indiana,Fort Wayne,Economic,41.031,-85.1714,1000kt,Air Burst
+Indiana,Evansville,Economic,37.925,-87.5365,800kt,Air Burst
+Indiana,Evansville,Economic,38.0143,-87.5666,800kt,Air Burst
+Iowa,Des Moines,Government,41.537,-93.5873,500kt,Air Burst
+Iowa,Des Moines,Government,41.5811,-93.6378,500kt,Air Burst
+Kansas,McConnell AFB,Military,37.6401,-97.2784,800kt,Air Burst
+Kansas,McConnell AFB,Military,37.6274,-97.194,800kt,Air Burst
+Kansas,McConnell AFB,Military,37.6394,-97.2207,200kt,Air Burst
+Kansas,McConnell AFB,Military,37.5952,-97.2597,200kt,Air Burst
+Kansas,McConnell AFB,Military,37.5831,-97.2994,200kt,Air Burst
+Kansas,Fort Riley,Militaryj,39.0504,-96.8266,200kt,Surface Burst
+Kansas,Fort Riley,Militaryj,39.1049,-96.7769,200kt,Surface Burst
+Kansas,Fort Leavenworth,Military,39.4169,-94.8709,1000kt,Air Burst
+Kansas,Wichita,Economic,37.7466,-97.2771,800kt,Air Burst
+Kansas,Wichita,Economic,37.719,-97.3666,800kt,Air Burst
+Kansas,Kansas City,Economic,39.136,-94.6842,800kt,Air Burst
+Kansas,Kansas City,Economic,39.0841,-94.5654,800kt,Air Burst
+Kansas,Kansas City,Economic,39.0944,-94.6195,800kt,Air Burst
+Kansas,Topeka,Government,39.1198,-95.6267,400kt,Air Burst
+Kansas,Topeka,Government,39.1119,-95.6708,400kt,Air Burst
+Kentucky,Fort Campbell,Military,36.6853,-87.4266,400kt,Air Burst
+Kentucky,Fort Campbell,Military,36.6374,-87.4739,400kt,Air Burst
+Kentucky,Fort Knox,Military,37.9176,-85.9823,800kt,Air Burst
+Kentucky,Fort Knox,Military,37.8808,-86.0172,800kt,Air Burst
+Kentucky,Fort Knox,Military,37.899,-86.0224,200kt,Surface Burst
+Kentucky,Fort Knox,Military,37.9425,-85.908,200kt,Surface Burst
+Kentucky,Louisville,Economic,38.1909,-85.7194,1000kt,Air Burst
+Kentucky,Louisville,Economic,38.2815,-85.7025,1000kt,Air Burst
+Kentucky,Lexington,Economic,38.0392,-84.4969,800kt,Air Burst
+Kentucky,Lexington,Economic,38.0465,-84.5224,800kt,Air Burst
+Kentucky,Frankfort,Government,38.2156,-84.9021,200kt,Air Burst
+Kentucky,Frankfort,Government,38.2658,-84.8873,200kt,Air Burst
+Louisiana,Barksdalei AFB,Military,32.5167,-93.7053,800kt,Air Burst
+Louisiana,Barksdalei AFB,Military,32.4771,-93.6136,800kt,Air Burst
+Louisiana,Barksdalei AFB,Military,32.4535,-93.6542,200kt,Air Burst
+Louisiana,Barksdalei AFB,Military,32.4581,-93.6869,300kt,Surface Burst
+Louisiana,Barksdalei AFB,Military,32.4581,-93.6869,200kt,Surface Burst
+Louisiana,Barksdalei AFB,Military,32.4381,-93.6308,200kt,Surface Burst
+Louisiana,Fort Polk,Military,31.0413,-93.2294,800kt,Air Burst
+Louisiana,Fort Polk,Military,31.0809,-93.1606,800kt,Air Burst
+Louisiana,Fort Polk,Military,31.0174,-93.1533,100kt,Air Burst
+Louisiana,New Orleans,Economic,29.9468,-90.1153,1000kt,Air Burst
+Louisiana,New Orleans,Economic,29.9634,-90.0619,1000kt,Air Burst
+Louisiana,Baton Rouge,Government,30.4573,-91.0932,1000kt,Air Burst
+Louisiana,Baton Rouge,Government,30.4618,-91.1656,1000kt,Air Burst
+Louisiana,Port of South Louisiana,Economic,30.952,-91.2521,800kt,Air Burst
+Louisiana,Port of South Louisiana,Economic,30.8978,-91.1684,800kt,Air Burst
+Louisiana,Port of South Louisiana,Economic,30.9463,-91.2742,200kt,Air Burst
+Louisiana,Port of South Louisiana,Economic,30.8415,-91.2118,200kt,Air Burst
+Louisiana,Port of South Louisiana,Economic,30.9029,-91.258,200kt,Air Burst
+Maine,NS Portsmouth,Military,43.027,-70.7083,500kt,Air Burst
+Maine,NS Portsmouth,Military,43.0503,-70.782,500kt,Air Burst
+Maine,Portland,Economic,43.6709,-70.3135,500kt,Air Burst
+Maine,Portland,Economic,43.6591,-70.3007,500kt,Air Burst
+Maine,Augusta,Government,44.3772,-69.794,200kt,Air Burst
+Maine,Augusta,Government,44.2916,-69.7243,200kt,Air Burst
+Maryland,Annapolis,Government,39.0103,-76.5295,300kt,Air Burst
+Maryland,Annapolis,Government,38.9925,-76.4545,300kt,Air Burst
+Maryland,Baltimore,Economic,39.3275,-76.6569,1000kt,Air Burst
+Maryland,Baltimore,Economic,39.3251,-76.6464,1000kt,Air Burst
+Maryland,Baltimore,Economic,39.237,-76.5998,100kt,Surface Burst
+Maryland,Andrews AFB,Military,38.7924,-76.9229,1000kt,Air Burst
+Maryland,Andrews AFB,Military,38.8578,-76.9094,1000kt,Air Burst
+Maryland,Andrews AFB,Military,38.8366,-76.9254,500kt,Surface Burst
+Maryland,Andrews AFB,Military,38.7675,-76.8653,500kt,Surface Burst
+Maryland,Andrews AFB,Military,38.8106,-76.9398,500kt,Surface Burst
+Maryland,NAS Patuxent River,Military,38.2914,-76.4614,800kt,Air Burst
+Maryland,NAS Patuxent River,Military,38.3133,-76.4163,800kt,Air Burst
+Maryland,Naval Academy,Military,38.9591,-76.428,800kt,Air Burst
+Maryland,Naval Academy,Military,38.9725,-76.4858,200kt,Surface Burst
+Maryland,Naval Academy,Military,38.9777,-76.4613,200kt,Surface Burst
+Maryland,NSA Annapolis,Military,38.9906,-76.5399,800kt,Air Burst
+Maryland,NSA Annapolis,Military,38.9475,-76.4595,800kt,Air Burst
+Maryland,NSA Annapolis,Military,38.9875,-76.4605,100kt,Air Burst
+Maryland,NSF Indian Head,Military,38.5677,-77.1917,500kt,Air Burst
+Maryland,NSF Indian Head,Military,38.6462,-77.2147,500kt,Air Burst
+Maryland,Fort Meade,Military,39.1287,-76.7784,1000kt,Air Burst
+Maryland,Fort Meade,Military,39.158,-76.767,1000kt,Air Burst
+Maryland,Fort Meade,Military,39.1009,-76.6665,1000kt,Air Burst
+Maryland,Fort Meade,Military,39.1161,-76.7797,300kt,Surface Burst
+Maryland,Fort Meade,Military,39.1207,-76.7698,300kt,Surface Burst
+Maryland,Fort Meade,Military,39.1172,-76.6719,300kt,Surface Burst
+Maryland,Fort Meade,Military,39.1317,-76.7008,300kt,Surface Burst
+Maryland,Fort Detrick,Military,39.4817,-77.4014,800kt,Air Burst
+Maryland,Fort Detrick,Military,39.4389,-77.4148,800kt,Air Burst
+Maryland,Fort Detrick,Military,39.3876,-77.4532,100kt,Surface Burst
+Maryland,Aberdeen Proving Ground,Military,39.4409,-76.0639,1000kt,Air Burst
+Maryland,Aberdeen Proving Ground,Military,39.482,-76.0982,1000kt,Air Burst
+Maryland,Aberdeen Proving Ground,Military,39.501,-76.1611,200kt,Air Burst
+Maryland,Aberdeen Proving Ground,Military,39.4636,-76.1388,200kt,Air Burst
+Massachusetts,Hanscom AFB,Military,42.4339,-71.2471,500kt,Air Burst
+Massachusetts,Hanscom AFB,Military,42.4001,-71.2523,500kt,Air Burst
+Massachusetts,Westover Air Reserve Base,Military,42.1534,-72.5805,400kt,Air Burst
+Massachusetts,Westover Air Reserve Base,Military,42.1611,-72.5052,400kt,Air Burst
+Massachusetts,Boston,Economic,42.3578,-71.0051,1000kt,Air Burst
+Massachusetts,Boston,Economic,42.3333,-71.0496,1000kt,Air Burst
+Massachusetts,Logan Airport,Economic,42.4103,-70.9904,200kt,Surface Burst
+Massachusetts,Logan Airport,Economic,42.343,-70.9531,200kt,Surface Burst
+Massachusetts,Worcester,Economic,42.3051,-71.7898,1000kt,Air Burst
+Massachusetts,Worcester,Economic,42.2978,-71.8291,1000kt,Air Burst
+Massachusetts,Springfield,Economic,42.1184,-72.6225,800kt,Air Burst
+Massachusetts,Springfield,Economic,42.092,-72.6554,800kt,Air Burst
+Massachusetts,Lowell,Economic,42.6572,-71.3162,800kt,Air Burst
+Massachusetts,Lowell,Economic,42.6644,-71.3785,800kt,Air Burst
+Massachusetts,Cambridge,Economic,42.424,-71.1181,500kt,Air Burst
+Massachusetts,Cambridge,Economic,42.437,-71.1129,500kt,Air Burst
+Michigan,Detroit Arsenal,Military,42.4189,-82.9407,500kt,Surface Burst
+Michigan,Detroit,Economic,42.3526,-83.086,1000kt,Air Burst
+Michigan,Detroit,Economic,42.3377,-83.0018,1000kt,Air Burst
+Michigan,Detroit,Economic,42.3873,-83.1074,1000kt,Air Burst
+Michigan,Detroit International Aiport,Transportation,42.2513,-83.3467,200kt,Surface Burst
+Michigan,Detroit International Aiport,Transportation,42.2033,-83.3244,200kt,Surface Burst
+Michigan,Dearborn,Economic,42.3366,-83.1509,800kt,Air Burst
+Michigan,Dearborn,Economic,42.2684,-83.1211,800kt,Air Burst
+Michigan,Warren,Economic,42.4841,-83.0252,500kt,Air Burst
+Michigan,Warren,Economic,42.4601,-82.9509,500kt,Air Burst
+Michigan,Grand Rapids,Economic,42.9678,-85.6617,500kt,Air Burst
+Michigan,Grand Rapids,Economic,42.9783,-85.6385,500kt,Air Burst
+Michigan,Flint,Economic,43.0524,-83.7058,500kt,Air Burst
+Michigan,Flint,Economic,43.0779,-83.735,500kt,Air Burst
+Michigan,Lansing,Government,42.7796,-84.5087,400kt,Air Burst
+Michigan,Lansing,Government,42.7804,-84.5455,400kt,Air Burst
+Michigan,Selfridge ANGB,Military,42.5975,-82.8957,400kt,Air Burst
+Michigan,Selfridge ANGB,Military,42.6305,-82.9009,400kt,Air Burst
+Minnesota,Minneapolis,Economic,44.9895,-93.246,1000kt,Air Burst
+Minnesota,Minneapolis,Economic,44.9217,-93.2482,1000kt,Air Burst
+Minnesota,Minneapolis,Economic,44.9256,-93.2917,1000kt,Air Burst
+Minnesota,Minneapolis,Economic,44.9448,-93.3011,500kt,Air Burst
+Minnesota,Minneapolis,Economic,44.9213,-93.3203,500kt,Air Burst
+Minnesota,St. Paul,Government,44.943,-93.0748,800kt,Air Burst
+Minnesota,St. Paul,Government,44.9012,-93.0838,800kt,Air Burst
+Minnesota,St. Paul,Government,45.0203,-93.0982,300kt,Surface Burst
+Mississippi,Jackson,Government,32.2938,-90.1711,300kt,Air Burst
+Mississippi,Jackson,Government,32.3536,-90.1605,300kt,Air Burst
+Mississippi,Jackson,Government,32.3099,-90.1937,100kt,Surface Burst
+Mississippi,Keesler AFB,Military,32.3072,-89.3975,200kt,Air Burst
+Mississippi,Keesler AFB,Military,32.3879,-89.3347,200kt,Air Burst
+Mississippi,Columbus AFB,Military,33.6618,-88.4238,200kt,Air Burst
+Mississippi,Columbus AFB,Military,33.5978,-88.4284,200kt,Air Burst
+Mississippi,Columbus AFB,Military,33.5894,-88.5004,200kt,Surface Burst
+Mississippi,Columbus AFB,Military,33.6467,-88.47,200kt,Surface Burst
+Mississippi,NAS Meridian,Military,32.528,-88.5002,500kt,Air Burst
+Mississippi,NAS Meridian,Military,32.5133,-88.5664,500kt,Air Burst
+Mississippi,NAS Meridian,Military,32.5673,-88.5427,200kt,Surface Burst
+Mississippi,Gulfport Battalion Center,Economic,34.4779,-88.9376,500kt,Air Burst
+Mississippi,Gulfport Battalion Center,Economic,34.525,-88.9888,500kt,Air Burst
+Missouri,Whiteman AFB,Military,38.7091,-93.4984,1000kt,Air Burst
+Missouri,Marine Corps Command,Military,38.9508,-94.5483,1000kt,Air Burst
+Missouri,Marine Corps Command,Military,38.8508,-94.5253,1000kt,Air Burst
+Missouri,Marine Corps Command,Military,39.0808,-94.5075,200kt,Surface Burst
+Missouri,Marine Corps Command,Military,38.8548,-94.5968,200kt,Surface Burst
+Missouri,Marine Corps Command,Military,38.96,-94.5729,200kt,Surface Burst
+Missouri,Kansas City,Economic,39.1195,-94.6131,1000kt,Air Burst
+Missouri,Kansas City,Economic,39.1394,-94.5885,1000kt,Air Burst
+Missouri,Kansas City,Economic,39.109,-94.6255,1000kt,Air Burst
+Missouri,St. Louis,Economic,38.6889,-90.2297,800kt,Air Burst
+Missouri,St. Louis,Economic,38.6915,-90.1663,800kt,Air Burst
+Missouri,St. Louis,Economic,38.6142,-90.244,800kt,Air Burst
+Missouri,St. Louis,Economic,38.6006,-90.1472,200kt,Surface Burst
+Missouri,Jefferson City,Government,38.5348,-92.1098,300kt,Air Burst
+Missouri,Jefferson City,Government,38.5262,-92.2068,300kt,Air Burst
+Montana,Malmstrom AFB,Military,47.4532,-111.2231,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4465,-111.1168,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4377,-111.239,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5112,-111.1739,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4725,-111.1134,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5039,-111.1384,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.448,-111.233,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4406,-111.1534,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4858,-111.1134,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4919,-111.1536,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5184,-111.1484,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5673,-111.2159,200kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4585,-111.1545,500kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5263,-111.2003,500kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5519,-111.1541,500kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.54,-111.196,500kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4831,-111.1836,500kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.5692,-111.2091,800kt,Surface Burst
+Montana,Malmstrom AFB,Military,47.4594,-111.2283,800kt,Surface Burst
+Montana,Helena,Government,47.4701,-111.1696,200kt,Surface Burst
+Montana,Helena,Government,47.5693,-111.2395,200kt,Surface Burst
+Montana,Fort Peck Dam,Economic,47.9571,-106.4309,200kt,Surface Burst
+Montana,Fort Peck Dam,Economic,47.957,-106.431,300kt,Surface Burst
+Nebraska,Offutt AFB,Military,41.115,-95.9727,1000kt,Air Burst
+Nebraska,Offutt AFB,Military,41.0929,-95.9245,1000kt,Air Burst
+Nebraska,Offutt AFB,Military,41.1867,-95.8847,100kt,Air Burst
+Nebraska,Offutt AFB,Military,41.0767,-95.8678,100kt,Air Burst
+Nebraska,Offutt AFB,Military,41.1785,-95.9208,100kt,Air Burst
+Nebraska,Offutt AFB,Military,41.139,-95.9709,100kt,Air Burst
+Nebraska,Offutt AFB,Military,41.0802,-95.886,100kt,Air Burst
+Nebraska,Offutt AFB,Military,41.1769,-95.9714,100kt,Air Burst
+Nebraska,Omaha,Economic,41.2736,-96.0354,1000kt,Air Burst
+Nebraska,Omaha,Economic,41.2352,-95.9864,800kt,Air Burst
+Nebraska,Omaha,Economic,41.3172,-95.9789,800kt,Air Burst
+Nebraska,Lincoln,Government,40.8837,-96.7247,500kt,Air Burst
+Nebraska,Lincoln,Government,40.8526,-96.6487,500kt,Air Burst
+Nevada,Nellis AFB,Military,36.2655,-115.037,200kt,Surface Burst
+Nevada,Nellis AFB,Military,36.1868,-115.1167,200kt,Surface Burst
+Nevada,Nellis AFB,Military,36.2585,-114.9976,500kt,Air Burst
+Nevada,Nellis AFB,Military,36.203,-115.0331,500kt,Air Burst
+Nevada,Nellis AFB,Military,36.1857,-115.0256,500kt,Air Burst
+Nevada,NAS Fallon,Military,39.4089,-118.7199,300kt,Air Burst
+Nevada,NAS Fallon,Military,39.4661,-118.6965,300kt,Air Burst
+Nevada,NAS Fallon,Military,39.4411,-118.6563,100kt,Surface Burst
+Nevada,NAS Fallon,Military,39.4063,-118.7042,100kt,Surface Burst
+Nevada,Creech AFB,Military,36.6151,-115.6638,100kt,Surface Burst
+Nevada,Creech AFB,Military,36.5305,-115.727,100kt,Surface Burst
+Nevada,Creech AFB,Military,36.5541,-115.6969,500kt,Air Burst
+Nevada,Creech AFB,Military,36.5557,-115.7229,500kt,Air Burst
+Nevada,Las Vegas,Economic,36.0575,-115.1462,500kt,Air Burst
+Nevada,Las Vegas,Economic,36.0579,-115.1733,500kt,Air Burst
+Nevada,Las Vegas,Economic,36.0671,-115.1157,1000kt,Air Burst
+Nevada,McCarran International Airport,Transportation,36.1266,-115.1342,200kt,Surface Burst
+Nevada,McCarran International Airport,Transportation,36.0981,-115.1683,200kt,Surface Burst
+Nevada,North Las Vegas,Economic,36.2483,-115.1592,400kt,Air Burst
+Nevada,Henderson,Economic,36.0395,-114.9817,800kt,Air Burst
+Nevada,Carson City,Government,39.2124,-119.7551,200kt,Air Burst
+Nevada,Carson City,Government,39.2115,-119.7123,200kt,Air Burst
+Nevada,Reno,Economic,39.4944,-119.7775,800kt,Air Burst
+Nevada,Reno,Economic,39.592,-119.8387,800kt,Air Burst
+New Hampshire,Portsmouth Shipyard,Military,43.095,70.7942,1000kt,Air Burst
+New Hampshire,Portsmouth Shipyard,Military,43.0504,70.7733,1000kt,Air Burst
+New Hampshire,Portsmouth Shipyard,Military,43.03,70.8018,200kt,Air Burst
+New Hampshire,Portsmouth Shipyard,Military,43.0592,70.6883,200kt,Air Burst
+New Hampshire,Portsmouth,Economic,43.1196,-70.745,800kt,Air Burst
+New Hampshire,Portsmouth,Economic,43.0392,-70.7069,800kt,Air Burst
+New Hampshire,Concord,Government,43.1502,-71.5728,200kt,Air Burst
+New Hampshire,Concord,Government,43.2057,-71.5089,200kt,Air Burst
+New Jersey,Newark,Economic,40.6861,-74.1891,1000kt,Air Burst
+New Jersey,Newark,Economic,40.7736,-74.1897,1000kt,Air Burst
+New Jersey,Newark,Economic,40.7398,-74.232,1000kt,Air Burst
+New Jersey,Newark International Airport,Transportation,40.697,-74.1836,100kt,Surface Burst
+New Jersey,Newark International Airport,Transportation,40.7346,-74.1352,100kt,Surface Burst
+New Jersey,Jersey City,Economic,40.6942,-74.0421,800kt,Air Burst
+New Jersey,Jersey City,Economic,40.716,-74.1088,800kt,Air Burst
+New Jersey,Jersey City,Economic,40.6743,-74.0189,800kt,Air Burst
+New Jersey,Paterson,Economic,40.9066,-74.13,500kt,Air Burst
+New Jersey,Paterson,Economic,40.9039,-74.1798,500kt,Air Burst
+New Jersey,Trenton,Government,40.2108,-74.7279,500kt,Air Burst
+New Jersey,Trenton,Government,40.1609,-74.7601,500kt,Air Burst
+New Jersey,Elizabeth,Economic,40.6362,-74.1576,800kt,Air Burst
+New Jersey,Elizabeth,Economic,40.66,-74.2043,800kt,Air Burst
+New Jersey,Elizabeth,Economic,40.6662,-74.2722,200kt,Surface Burst
+New Jersey,Elizabeth,Economic,40.681,-74.2108,200kt,Surface Burst
+New Jersey,McGuire AFB,Military,39.9801,-74.5939,500kt,Air Burst
+New Jersey,McGuire AFB,Military,40.025,-74.5321,500kt,Air Burst
+New Jersey,McGuire AFB,Military,39.9966,-74.5713,500kt,Air Burst
+New Jersey,Fort Dix,Military,39.9772,-74.6371,500kt,Air Burst
+New Jersey,Fort Dix,Military,40.0134,-74.5906,500kt,Air Burst
+New Jersey,Picatinny Arsenal,Economic,40.9033,-74.6285,500kt,Air Burst
+New Jersey,Picatinny Arsenal,Economic,40.9611,-74.5098,500kt,Air Burst
+New Jersey,Picatinny Arsenal,Economic,40.8875,-74.533,200kt,Air Burst
+New Jersey,Picatinny Arsenal,Economic,40.959,-74.6007,200kt,Air Burst
+New Jersey,Lakehurst,Economic,39.9507,-74.317,800kt,Air Burst
+New Jersey,Lakehurst,Economic,40.0258,-74.3349,800kt,Air Burst
+New Jersey,Lakehurst,Economic,40.046,-74.2791,800kt,Air Burst
+New Jersey,Lakehurst,Economic,39.9756,-74.2624,100kt,Air Burst
+New Jersey,Lakehurst,Economic,39.9788,-74.267,100kt,Air Burst
+New Jersey,NWS Earle,Economic,40.3184,-74.2187,500kt,Air Burst
+New Jersey,NWS Earle,Economic,40.2544,-74.1468,500kt,Air Burst
+New Jersey,NWS Earle,Economic,40.2182,-74.179,100kt,Air Burst
+New Mexico,Albuquerque,Economic,35.0492,-106.5617,1000kt,Air Burst
+New Mexico,Albuquerque,Economic,35.03,-106.6272,1000kt,Air Burst
+New Mexico,Santa Fe,Government,35.6548,-105.9256,800kt,Air Burst
+New Mexico,Santa Fe,Government,35.7136,-105.972,800kt,Air Burst
+New Mexico,Los Alamos,Government,35.8964,-106.2817,800kt,Air Burst
+New Mexico,Los Alamos,Government,35.8501,-106.2647,800kt,Air Burst
+New Mexico,Los Alamos,Government,35.9273,-106.2519,400kt,Surface Burst
+New Mexico,Los Alamos,Government,35.8198,-106.3563,400kt,Surface Burst
+New Mexico,Kirtland AFB,Military,35.0451,-106.4625,1000kt,Air Burst
+New Mexico,Kirtland AFB,Military,34.9721,-106.4447,1000kt,Air Burst
+New Mexico,Kirtland AFB,Military,34.9536,-106.557,500kt,Surface Burst
+New Mexico,Kirtland AFB,Military,34.9956,-106.5575,500kt,Surface Burst
+New Mexico,Holloman AFB,Military,32.8391,-106.0949,800kt,Air Burst
+New Mexico,Holloman AFB,Military,32.9212,-106.1421,800kt,Air Burst
+New Mexico,Cannon AFB,Military,34.3441,-103.2572,800kt,Air Burst
+New Mexico,Cannon AFB,Military,34.3527,-103.332,800kt,Air Burst
+New Mexico,Cannon AFB,Military,34.3764,-103.2654,800kt,Surface Burst
+New Mexico,White Sands,Military,32.4301,-106.516,800kt,Air Burst
+New Mexico,White Sands,Military,32.4371,-106.4443,800kt,Air Burst
+New Mexico,White Sands,Military,32.4234,-106.451,100kt,Surface Burst
+New Mexico,White Sands,Military,32.4036,-106.4563,100kt,Surface Burst
+New York,New York City,Economic,40.6664,-74.0268,1000kt,Air Burst
+New York,New York City,Economic,40.734,-74.0485,1000kt,Air Burst
+New York,New York City,Economic,40.767,-73.9517,1000kt,Air Burst
+New York,JFK International,Transportation,40.6506,-73.7696,200kt,Surface Burst
+New York,JFK International,Transportation,40.67,-73.7713,200kt,Surface Burst
+New York,LaGuardia Airport,Transportation,40.7765,-73.8074,200kt,Surface Burst
+New York,LaGuardia Airport,Transportation,40.7587,-73.9377,200kt,Surface Burst
+New York,Buffalo,Economic,42.9296,-78.8403,1000kt,Air Burst
+New York,Buffalo,Economic,42.9456,-78.8386,1000kt,Air Burst
+New York,Rochester,Economic,43.1357,-77.5492,800kt,Air Burst
+New York,Rochester,Economic,43.1013,-77.6238,800kt,Air Burst
+New York,Yonkers,Economic,40.972,-73.8607,500kt,Air Burst
+New York,Yonkers,Economic,40.9023,-73.9524,500kt,Air Burst
+New York,Brooklyn,Economic,40.733,-73.9954,500kt,Air Burst
+New York,Brooklyn,Economic,40.6597,-73.9722,500kt,Air Burst
+New York,Albany,Government,42.6511,-73.7505,300kt,Air Burst
+New York,Albany,Government,42.6781,-73.7434,300kt,Air Burst
+New York,Saratoga Springs NSU,Economic,40.7206,-73.9394,200kt,Surface Burst
+New York,Saratoga Springs NSU,Economic,40.7564,-73.9401,200kt,Surface Burst
+New York,US Military Academy,Military,41.3915,-73.956,1000kt,Surface Burst
+New York,US Military Academy,Military,41.3925,-73.953,1000kt,Surface Burst
+New York,Watervliet Arsenal,Military,42.7071,-73.6493,800kt,Surface Burst
+New York,Watervliet Arsenal,Military,42.6659,-73.7076,800kt,Surface Burst
+New York,Fort Drum,Military,44.043,-75.8123,800kt,Air Burst
+New York,Fort Drum,Military,44.031,-75.7539,800kt,Air Burst
+New York,Fort Drum,Military,44.0182,-75.7592,200kt,Surface Burst
+New York,Fort Drum,Military,44.0396,-75.7312,200kt,Surface Burst
+New York,Niagra Falls,Economic,43.1151,-79.0972,200kt,Surface Burst
+New York,Niagra Falls,Economic,43.1134,-79.0137,200kt,Surface Burst
+North Carolina,Durham,Military,36.0083,-78.9278,1000kt,Air Burst
+North Carolina,Camp Lejeune,Military,34.6278,-77.3312,800kt,Air Burst
+North Carolina,Camp Lejeune,Military,34.6155,-77.4077,800kt,Air Burst
+North Carolina,Camp Lejeune,Military,34.604,-77.3692,200kt,Surface Burst
+North Carolina,Camp Lejeune,Military,34.5301,-77.3391,200kt,Surface Burst
+North Carolina,Fort Bragg,Military,35.1144,-79.0108,1000kt,Air Burst
+North Carolina,Fort Bragg,Military,35.1743,-78.9845,1000kt,Air Burst
+North Carolina,Fort Bragg,Military,35.1692,-78.9977,100kt,Surface Burst
+North Carolina,Fort Bragg,Military,35.1914,-79.0611,100kt,Surface Burst
+North Carolina,Fort Bragg,Military,35.2041,-78.9892,100kt,Surface Burst
+North Carolina,MCAS Cherry Point,Military,34.7409,-76.8728,400kt,Air Burst
+North Carolina,MCAS Cherry Point,Military,34.6795,-76.8357,400kt,Air Burst
+North Carolina,MCAS Cherry Point,Military,34.7064,-76.9424,100kt,Surface Burst
+North Carolina,MCAS New River,Military,34.7619,-77.6714,400kt,Air Burst
+North Carolina,Seymour Johnson AFB,Military,35.3051,-77.989,500kt,Air Burst
+North Carolina,Seymour Johnson AFB,Military,35.3685,-78.0139,500kt,Air Burst
+North Carolina,Seymour Johnson AFB,Military,35.3695,-77.9062,500kt,Air Burst
+North Carolina,Seymour Johnson AFB,Military,35.3262,-78.025,200kt,Air Burst
+North Carolina,Seymour Johnson AFB,Military,35.4032,-77.9292,200kt,Air Burst
+North Carolina,Charlotte,Military,35.2214,-80.8453,500kt,Air Burst
+North Carolina,Charlotte,Military,35.198,-80.8828,500kt,Air Burst
+North Carolina,Charlotte International Airport,Transportation,35.1807,-80.9526,200kt,Surface Burst
+North Carolina,Charlotte International Airport,Transportation,35.2785,-80.9181,200kt,Surface Burst
+North Carolina,Raleigh,Government,35.7723,-78.6588,400kt,Air Burst
+North Carolina,Raleigh,Government,35.7571,-78.6536,400kt,Air Burst
+North Carolina,Greensboro,Economic,36.0155,-79.7616,400kt,Air Burst
+North Carolina,Greensboro,Economic,36.0994,-79.7614,400kt,Air Burst
+North Carolina,Winston-Salem,Economic,36.1279,-80.2745,800kt,Air Burst
+North Carolina,Winston-Salem,Economic,36.0489,-80.2546,800kt,Air Burst
+North Carolina,Winston-Salem,Economic,36.1209,-80.2461,800kt,Air Burst
+North Dakota,Minot AFB,Military,48.4241,-101.3446,1000kt,Air Burst
+North Dakota,Minot AFB,Military,48.4585,-101.3645,1000kt,Air Burst
+North Dakota,Minot AFB,Military,48.3644,-101.3304,200kt,Surface Burst
+North Dakota,Minot AFB,Military,48.4255,-101.3799,200kt,Surface Burst
+North Dakota,Minot AFB,Military,48.4073,-101.3756,200kt,Surface Burst
+North Dakota,Minot AFB,Military,48.4612,-101.2991,200kt,Surface Burst
+North Dakota,Minot AFB,Military,48.4218,-101.2994,800kt,Surface Burst
+North Dakota,Minot AFB,Military,48.4564,-101.3437,800kt,Surface Burst
+North Dakota,Fargo,Economic,46.8406,-96.7495,400kt,Air Burst
+North Dakota,Fargo,Economic,46.9334,-96.7479,400kt,Air Burst
+North Dakota,Bismark,Government,46.8489,-100.8204,400kt,Air Burst
+North Dakota,Bismark,Government,46.8488,-100.802,400kt,Air Burst
+North Dakota,Garrison Dam,Economic,47.495,-101.4141,100kt,Surface Burst
+North Dakota,Garrison Dam,Economic,47.4951,-101.4142,200kt,Surface Burst
+Ohio,Columbus,Government,39.9485,-82.9911,1000kt,Air Burst
+Ohio,Columbus,Government,39.9221,-82.9737,1000kt,Air Burst
+Ohio,Columbus,Government,39.9821,-83.0332,1000kt,Air Burst
+Ohio,Cleveland,Economic,41.4852,-81.6982,1000kt,Air Burst
+Ohio,Cleveland,Economic,41.4819,-81.7129,1000kt,Air Burst
+Ohio,Cleveland,Economic,41.4512,-81.663,1000kt,Air Burst
+Ohio,Cincinnati,Economic,39.0395,-84.5711,1000kt,Air Burst
+Ohio,Cincinnati,Economic,39.0477,-84.538,1000kt,Air Burst
+Ohio,Toledo,Economic,41.6233,-83.5417,800kt,Air Burst
+Ohio,Toledo,Economic,41.6852,-83.5095,800kt,Air Burst
+Ohio,Akron,Economic,41.1287,-81.4758,800kt,Air Burst
+Ohio,Akron,Economic,41.1034,-81.5033,800kt,Air Burst
+Ohio,Wright-Patterson AFB,Military,39.8326,-84.0436,800kt,Air Burst
+Ohio,Wright-Patterson AFB,Military,39.8456,-84.0735,800kt,Air Burst
+Ohio,Wright-Patterson AFB,Military,39.7853,-83.989,800kt,Air Burst
+Ohio,Wright-Patterson AFB,Military,39.8512,-83.9962,200kt,Surface Burst
+Ohio,Wright-Patterson AFB,Military,39.8287,-84.0776,200kt,Surface Burst
+Ohio,Wright-Patterson AFB,Military,39.7855,-84.0166,200kt,Surface Burst
+Ohio,Wright-Patterson AFB,Military,39.7584,-84.055,200kt,Surface Burst
+Oklahoma,Oklahoma City,Government,35.4127,-97.4703,1000kt,Air Burst
+Oklahoma,Oklahoma City,Government,35.4705,-97.4933,1000kt,Air Burst
+Oklahoma,Tulsa,Economic,36.1632,-96.0388,800kt,Air Burst
+Oklahoma,Tulsa,Economic,36.1799,-95.9278,800kt,Air Burst
+Oklahoma,Tinker AFB,Military,35.3926,-97.4139,1000kt,Air Burst
+Oklahoma,Tinker AFB,Military,35.4761,-97.3347,1000kt,Air Burst
+Oklahoma,Tinker AFB,Military,35.4422,-97.4029,300kt,Surface Burst
+Oklahoma,Tinker AFB,Military,35.4423,-97.3494,300kt,Surface Burst
+Oklahoma,Tinker AFB,Military,35.4763,-97.4372,300kt,Surface Burst
+Oklahoma,Tinker AFB,Military,35.3888,-97.3387,300kt,Surface Burst
+Oklahoma,Vance AFB,Military,36.3163,-97.9325,1000kt,Air Burst
+Oklahoma,Altus AFB,Military,34.7154,-99.2974,400kt,Surface Burst
+Oklahoma,Fort Sill,Military,34.5478,-98.4234,500kt,Air Burst
+Oklahoma,Fort Sill,Military,34.6362,-98.4508,500kt,Air Burst
+Oklahoma,Fort Sill,Military,34.5516,-98.4131,300kt,Air Burst
+Oklahoma,Cushing,Economic,36.0452,-96.8159,500kt,Air Burst
+Oklahoma,Cushing,Economic,36.0099,-96.8253,500kt,Air Burst
+Oregon,Salem,Government,44.9966,-123.0978,500kt,Air Burst
+Oregon,Salem,Government,44.9509,-123.0738,500kt,Air Burst
+Oregon,Portland,Economic,45.5125,-122.6776,1000kt,Air Burst
+Oregon,Portland,Economic,45.5364,-122.6394,1000kt,Air Burst
+Oregon,Umatilla,Military,45.9557,-119.3304,200kt,Surface Burst
+Pennsylvania,Tobyhanna Army Depot,Military,41.2107,-75.4025,200kt,Surface Burst
+Pennsylvania,Tobyhanna Army Depot,Military,41.1857,-75.485,200kt,Surface Burst
+Pennsylvania,JRB Willow Grove,Military,40.1353,-75.1351,800kt,Surface Burst
+Pennsylvania,JRB Willow Grove,Military,40.1959,-75.0848,800kt,Surface Burst
+Pennsylvania,Philadelphia,Economic,39.9671,-75.1159,1000kt,Air Burst
+Pennsylvania,Philadelphia,Economic,39.8973,-75.2046,1000kt,Air Burst
+Pennsylvania,Philadelphia,Economic,39.973,-75.153,1000kt,Air Burst
+Pennsylvania,Philadelphia International Airport,Transportation,39.9145,-75.2894,200kt,Surface Burst
+Pennsylvania,Philadelphia International Airport,Transportation,39.9342,-75.1769,200kt,Surface Burst
+Pennsylvania,Pittsburgh,Economic,40.4711,-80.0241,1000kt,Air Burst
+Pennsylvania,Pittsburgh,Economic,40.4829,-80.0382,1000kt,Air Burst
+Pennsylvania,Pittsburgh,Economic,40.4354,-80.0403,1000kt,Air Burst
+Pennsylvania,Raven Rock Mountain Complex,Military,39.734,-77.4194,1000kt,Surface Burst
+Pennsylvania,Raven Rock Mountain Complex,Military,39.7338,-77.4196,1000kt,Surface Burst
+Pennsylvania,Raven Rock Mountain Complex,Military,39.7342,-77.4197,1000kt,Surface Burst
+Pennsylvania,Raven Rock Mountain Complex,Military,39.7333,-77.4192,1000kt,Surface Burst
+Pennsylvania,Raven Rock Mountain Complex,Military,39.734,-77.4193,1000kt,Air Burst
+Pennsylvania,Raven Rock Mountain Complex,Military,39.7339,-77.4195,1000kt,Air Burst
+Pennsylvania,Harrisburg,Government,40.2975,-76.8787,200kt,Air Burst
+Pennsylvania,Harrisburg,Government,40.2977,-76.8374,200kt,Air Burst
+Rhode Island,NS Newport,Military,41.8397,-71.3769,800kt,Air Burst
+Rhode Island,NS Newport,Military,41.8354,-71.3002,200kt,Surface Burst
+Rhode Island,NS Newport,Military,41.8409,-71.3341,200kt,Surface Burst
+Rhode Island,Providence,Government,41.8118,-71.4335,500kt,Air Burst
+Rhode Island,Providence,Government,41.8518,-71.4308,500kt,Air Burst
+South Carolina,Columbia,Government,34.0245,-80.997,500kt,Air Burst
+South Carolina,Columbia,Government,33.9409,-81.0316,500kt,Air Burst
+South Carolina,Charleston,Economic,32.7751,-79.9775,500kt,Air Burst
+South Carolina,Charleston,Economic,32.8076,-79.8749,500kt,Air Burst
+South Carolina,North Charleston,Economic,32.875,-79.9632,400kt,Air Burst
+South Carolina,North Charleston,Economic,32.8792,-79.9455,400kt,Air Burst
+South Carolina,Fort Jackson,Military,34.1387,-80.6866,800kt,Air Burst
+South Carolina,Fort Jackson,Military,34.1105,-80.6747,800kt,Air Burst
+South Carolina,Fort Jackson,Military,34.2086,-80.7715,100kt,Surface Burst
+South Carolina,Fort Jackson,Military,34.151,-80.7038,100kt,Surface Burst
+South Carolina,Joint Base Charleston,Military,32.8852,-80.0492,800kt,Air Burst
+South Carolina,Joint Base Charleston,Military,32.8699,-80.0457,800kt,Air Burst
+South Carolina,Joint Base Charleston,Military,32.9312,-80.116,200kt,Air Burst
+South Carolina,Joint Base Charleston,Military,32.9287,-80.1114,200kt,Air Burst
+South Carolina,MCAS Beaufort,Military,32.4236,-80.7286,500kt,Air Burst
+South Carolina,MCAS Beaufort,Military,32.4151,-80.7335,500kt,Air Burst
+South Carolina,MCAS Beaufort,Military,32.5396,-80.6742,100kt,Surface Burst
+South Carolina,MCAS Beaufort,Military,32.5113,-80.7362,100kt,Surface Burst
+South Carolina,MCRD Parris Island,Military,32.3494,-80.6283,800kt,Air Burst
+South Carolina,MCRD Parris Island,Military,32.3809,-80.6833,800kt,Air Burst
+South Carolina,MCRD Parris Island,Military,32.3695,-80.706,100kt,Air Burst
+South Carolina,MCRD Parris Island,Military,32.3341,-80.6521,100kt,Air Burst
+South Carolina,Shaw AFB,Military,33.9656,-80.5248,500kt,Air Burst
+South Carolina,Shaw AFB,Military,33.9353,-80.4453,500kt,Air Burst
+South Carolina,Shaw AFB,Military,33.9425,-80.4481,500kt,Air Burst
+South Carolina,Shaw AFB,Military,33.9421,-80.4238,100kt,Surface Burst
+South Dakota,Ellsworth AFB,Military,44.1375,-103.104,800kt,Air Burst
+South Dakota,Ellsworth AFB,Military,44.1642,-103.0933,800kt,Air Burst
+South Dakota,Ellsworth AFB,Military,44.1923,-103.1168,200kt,Surface Burst
+South Dakota,Ellsworth AFB,Military,44.1168,-103.1343,200kt,Surface Burst
+South Dakota,Ellsworth AFB,Military,44.1906,-103.1141,200kt,Surface Burst
+South Dakota,Ellsworth AFB,Military,44.114,-103.0593,200kt,Surface Burst
+South Dakota,Ellsworth AFB,Military,44.128,-103.1404,200kt,Surface Burst
+South Dakota,Ellsworth AFB,Military,44.1358,-103.1209,200kt,Surface Burst
+South Dakota,Sioux Falls,Economic,43.5308,-96.6815,500kt,Air Burst
+South Dakota,Sioux Falls,Economic,43.5974,-96.683,500kt,Air Burst
+South Dakota,Pierre,Government,44.3337,-100.325,200kt,Air Burst
+South Dakota,Pierre,Government,44.3494,-100.3641,200kt,Air Burst
+South Dakota,Oahe Dam,Economic,44.4513,-100.4022,100kt,Surface Burst
+South Dakota,Oahe Dam,Economic,44.4512,-100.4023,200kt,Surface Burst
+Tennessee,Arnold AFB,Military,35.3332,-86.0457,500kt,Air Burst
+Tennessee,Arnold AFB,Military,35.3661,-85.996,500kt,Air Burst
+Tennessee,NSA Mid-South,Military,35.3415,-89.8973,400kt,Air Burst
+Tennessee,NSA Mid-South,Military,35.3345,-89.8893,400kt,Air Burst
+Tennessee,Nashville,Government,36.1771,-86.7493,1000kt,Air Burst
+Tennessee,Nashville,Government,36.11,-86.8401,1000kt,Air Burst
+Tennessee,Memphis,Economic,35.1495,-90.049,1000kt,Air Burst
+Tennessee,Memphis,Economic,35.1295,-90.038,1000kt,Air Burst
+Tennessee,Memphis,Economic,35.1565,-90.032,2000kt,Air Burst
+Tennessee,Knoxville,Economic,36.0196,-83.8808,800kt,Air Burst
+Tennessee,Knoxville,Economic,35.9161,-83.9386,800kt,Air Burst
+Texas,Fort Cavazos,Military,31.0823,-97.4557,800kt,Air Burst
+Texas,Fort Cavazos,Military,31.0833,-97.456,800kt,Air Burst
+Texas,Fort Cavazos,Military,31.0828,-97.4562,300kt,Surface Burst
+Texas,Fort Cavazos,Military,31.082,-97.4551,200kt,Surface Burst
+Texas,Fort Cavazos,Military,31.0829,-97.4555,200kt,Surface Burst
+Texas,Fort Cavazos,Military,31.082,-97.4561,200kt,Surface Burst
+Texas,Houston,Economic,29.7855,-95.4315,1000kt,Air Burst
+Texas,Houston,Economic,29.8205,-95.4113,1000kt,Air Burst
+Texas,Houston,Economic,29.7173,-95.4243,1000kt,Air Burst
+Texas,Houston,Economic,29.8046,-95.4332,400kt,Air Burst
+Texas,Houston,Economic,29.7001,-95.3954,400kt,Air Burst
+Texas,Houston International Airport,Transportation,29.9354,-95.3138,100kt,Surface Burst
+Texas,Houston International Airport,Transportation,29.9822,-95.3323,100kt,Surface Burst
+Texas,Austin,Government,30.2361,-97.7815,1000kt,Air Burst
+Texas,Austin,Government,30.2925,-97.7952,1000kt,Air Burst
+Texas,Austin,Government,30.2221,-97.7291,200kt,Surface Burst
+Texas,Plano,Economic,33.0212,-96.6708,800kt,Air Burst
+Texas,Plano,Economic,33.0025,-96.6967,800kt,Air Burst
+Texas,Dallas,Economic,32.7112,-96.7578,1000kt,Air Burst
+Texas,Dallas,Economic,32.758,-96.8136,1000kt,Air Burst
+Texas,Dallas,Economic,32.7108,-96.7843,400kt,Air Burst
+Texas,Dallas,Economic,32.767,-96.8474,400kt,Air Burst
+Texas,Irving,Economic,32.7734,-97.0087,800kt,Air Burst
+Texas,San Antonio,Economic,29.4629,-98.5056,800kt,Air Burst
+Texas,San Antonio,Economic,29.4219,-98.4513,800kt,Air Burst
+Texas,San Antonio,Economic,29.3784,-98.4625,100kt,Air Burst
+Texas,San Antonio,Economic,29.3782,-98.4744,100kt,Air Burst
+Texas,Fort Worth,Economic,32.7952,-97.3504,800kt,Air Burst
+Texas,Fort Worth,Economic,32.7773,-97.295,800kt,Air Burst
+Texas,Fort Worth,Economic,32.7793,-97.3695,800kt,Air Burst
+Texas,Dallas Fort Worth Airport,Economic,32.9126,-97.0574,300kt,Surface Burst
+Texas,Dallas Fort Worth Airport,Economic,32.8484,-96.986,300kt,Surface Burst
+Texas,El Paso,Economic,31.8278,-106.4223,800kt,Air Burst
+Texas,El Paso,Economic,31.7637,-106.5398,800kt,Air Burst
+Texas,Arlington,Economic,32.6941,-97.0927,800kt,Air Burst
+Texas,Arlington,Economic,32.7629,-97.1725,800kt,Air Burst
+Texas,Corpus Christi,Economic,27.7581,-97.3926,1000kt,Air Burst
+Texas,Corpus Christi,Economic,27.8278,-97.4035,200kt,Surface Burst
+Texas,Corpus Christi,Economic,27.8233,-97.3998,200kt,Surface Burst
+Texas,Laredo,Economic,27.4746,-99.4323,400kt,Air Burst
+Texas,Laredo,Economic,27.5838,-99.5147,400kt,Air Burst
+Texas,Lubbock,Economic,33.6432,-101.8075,800kt,Air Burst
+Texas,Garland,Economic,32.9029,-96.6541,500kt,Air Burst
+Texas,Garland,Economic,32.9249,-96.6089,500kt,Air Burst
+Texas,Baytown,Economic,29.7217,-95.0054,400kt,Air Burst
+Texas,Baytown,Economic,29.7451,-94.9845,400kt,Air Burst
+Texas,Texas City,Economic,29.4346,-94.8605,500kt,Air Burst
+Texas,Texas City,Economic,29.3512,-94.9341,500kt,Air Burst
+Texas,Amarillo,Economic,35.1982,-101.8542,500kt,Air Burst
+Texas,Amarillo,Economic,35.2797,-101.8097,500kt,Air Burst
+Texas,Midland,Economic,31.9683,-102.1307,500kt,Air Burst
+Texas,Midland,Economic,32.0532,-102.0382,500kt,Air Burst
+Texas,Dyas AFB,Military,32.3967,-99.7853,200kt,Surface Burst
+Texas,Dyas AFB,Military,32.477,-99.7824,200kt,Surface Burst
+Texas,GoodFellow AFB,Military,31.4213,-100.4485,200kt,Surface Burst
+Texas,GoodFellow AFB,Military,31.395,-100.3502,200kt,Surface Burst
+Texas,Lackland AFB,Military,29.3591,-98.6087,200kt,Surface Burst
+Texas,Lackland AFB,Military,29.3523,-98.6068,200kt,Surface Burst
+Utah,Salt Lake City,Government,40.7173,-111.8698,1000kt,Air Burst
+Utah,Salt Lake City,Government,40.7653,-111.889,1000kt,Air Burst
+Utah,Hill AFB,Military,41.1804,-111.9496,800kt,Air Burst
+Utah,Hill AFB,Military,41.1593,-111.957,800kt,Air Burst
+Utah,Hill AFB,Military,41.1915,-112.0362,200kt,Surface Burst
+Utah,Hill AFB,Military,41.1316,-112.0336,200kt,Surface Burst
+Utah,Dugway Proving Ground,Military,40.2151,-112.9105,300kt,Air Burst
+Utah,Dugway Proving Ground,Military,40.1477,-112.9647,300kt,Air Burst
+Utah,Dugway Proving Ground,Military,40.2395,-112.8739,300kt,Air Burst
+Utah,Dugway Proving Ground,Military,40.2396,-112.9107,200kt,Surface Burst
+Vermont,Burlington,Economic,44.4328,-73.244,500kt,Air Burst
+Vermont,Burlington,Economic,44.4711,-73.148,500kt,Air Burst
+Vermont,Montpelier,Government,44.2895,-72.5722,200kt,Air Burst
+Vermont,Montpelier,Government,44.2792,-72.5106,200kt,Air Burst
+Virginia,Virginia Beach,Economic,36.8296,-75.9525,1000kt,Air Burst
+Virginia,Virginia Beach,Economic,36.9082,-76.0218,1000kt,Air Burst
+Virginia,Norfolk,Economic,36.814,-76.2872,1000kt,Air Burst
+Virginia,Norfolk,Economic,36.869,-76.3492,1000kt,Air Burst
+Virginia,Richmond,Government,37.5123,-77.393,800kt,Air Burst
+Virginia,Chesapeake,Economic,36.7821,-76.2545,1000kt,Air Burst
+Virginia,Newport News,Economic,37.0871,-76.473,1000kt,Air Burst
+Virginia,Portsmouth,Economic,36.8008,-76.2997,1000kt,Air Burst
+Virginia,Portsmouth,Economic,36.8122,-76.2443,1000kt,Air Burst
+Virginia,Hampton,Economic,37.0826,-76.346,800kt,Air Burst
+Virginia,Hampton,Economic,37.0456,-76.2909,800kt,Air Burst
+Virginia,Fort A.P. Hill,Military,38.0635,-77.2795,1000kt,Air Burst
+Virginia,Fort A.P. Hill,Military,38.1322,-77.2635,1000kt,Air Burst
+Virginia,Fort A.P. Hill,Military,38.0705,-77.2945,200kt,Surface Burst
+Virginia,Fort A.P. Hill,Military,38.0911,-77.3333,200kt,Surface Burst
+Virginia,Fort Belvoir,Military,38.721,-77.1163,400kt,Air Burst
+Virginia,Fort Belvoir,Military,38.726,-77.0886,400kt,Air Burst
+Virginia,Fort Belvoir,Military,38.7267,-77.1081,300kt,Surface Burst
+Virginia,Fort Belvoir,Military,38.7842,-77.1713,300kt,Surface Burst
+Virginia,Fort Eustis,Military,37.0995,-76.6405,400kt,Air Burst
+Virginia,Fort Eustis,Military,37.09,-76.6233,400kt,Air Burst
+Virginia,Fort Eustis,Military,37.0918,-76.5366,100kt,Surface Burst
+Virginia,Fort Eustis,Military,37.1475,-76.5967,100kt,Surface Burst
+Virginia,Fort Lee,Military,37.3092,-77.3963,500kt,Air Burst
+Virginia,Fort Lee,Military,37.2197,-77.3091,100kt,Surface Burst
+Virginia,Fort Monroe,Military,36.972,-76.32,800kt,Air Burst
+Virginia,Fort Monroe,Military,36.9849,-76.3093,800kt,Air Burst
+Virginia,Fort Monroe,Military,37.0754,-76.2817,200kt,Surface Burst
+Virginia,Fort Monroe,Military,36.9831,-76.3176,200kt,Surface Burst
+Virginia,Fort Myer,Military,38.9409,-77.0262,800kt,Air Burst
+Virginia,Fort Myer,Military,38.9327,-77.035,300kt,Air Burst
+Virginia,Fort Myer,Military,38.8513,-77.1055,300kt,Air Burst
+Virginia,Fort Myer,Military,38.8799,-77.0972,300kt,Air Burst
+Virginia,Langley AFB,Military,37.0221,-76.3341,1000kt,Air Burst
+Virginia,Langley AFB,Military,37.1242,-76.3777,1000kt,Air Burst
+Virginia,Langley AFB,Military,37.0475,-76.4114,500kt,Air Burst
+Virginia,Langley AFB,Military,37.14,-76.3171,500kt,Air Burst
+Virginia,Langley AFB,Military,37.0662,-76.3808,500kt,Air Burst
+Virginia,Langley AFB,Military,37.0645,-76.3292,500kt,Air Burst
+Virginia,Telecom Systems Command,Military,38.7518,-77.1358,400kt,Surface Burst
+Virginia,Telecom Systems Command,Military,38.7518,-77.1358,400kt,Surface Burst
+Virginia,Navigation Center,Military,38.7729,-77.1263,100kt,Surface Burst
+Virginia,Navigation Center,Military,38.7829,-77.1463,100kt,Surface Burst
+Virginia,Joint Expeditionary Base,Military,36.9226,-76.1093,1000kt,Air Burst
+Virginia,Joint Expeditionary Base,Military,36.8733,-76.1896,1000kt,Air Burst
+Virginia,Joint Expeditionary Base,Military,36.8692,-76.1388,200kt,Air Burst
+Virginia,Joint Expeditionary Base,Military,36.8768,-76.1153,200kt,Air Burst
+Virginia,NAB Little Creek,Military,36.9168,-76.1583,800kt,Air Burst
+Virginia,NAB Little Creek,Military,36.9368,-76.1593,800kt,Air Burst
+Virginia,NAB Little Creek,Military,36.9268,-76.1573,200kt,Surface Burst
+Virginia,NAB Little Creek,Military,36.9068,-76.1598,200kt,Surface Burst
+Virginia,NAS Oceana,Military,36.7912,-76.0268,400kt,Air Burst
+Virginia,NAS Oceana,Military,36.8592,-76.011,400kt,Air Burst
+Virginia,NAS Oceana,Military,36.8566,-76.0595,100kt,Air Burst
+Virginia,Norfolk Naval Shipyard,Military,36.8105,-76.3046,1000kt,Air Burst
+Virginia,Norfolk Naval Shipyard,Military,36.8209,-76.2985,1000kt,Air Burst
+Virginia,Norfolk Naval Shipyard,Military,36.8133,-76.3055,500kt,Surface Burst
+Virginia,Norfolk Naval Shipyard,Military,37.8129,-76.3084,500kt,Surface Burst
+Virginia,Norfolk Naval Shipyard,Military,37.8093,-76.2977,500kt,Surface Burst
+Virginia,NS Norfolk,Military,36.9994,-76.272,800kt,Air Burst
+Virginia,NS Norfolk,Military,36.9551,-76.2939,800kt,Air Burst
+Virginia,NS Norfolk,Military,36.8819,-76.3089,800kt,Air Burst
+Virginia,NS Norfolk,Military,37.0059,-76.3178,800kt,Air Burst
+Virginia,NS Norfolk,Military,36.9778,-76.3289,200kt,Surface Burst
+Virginia,NS Norfolk,Military,36.9464,-76.3735,200kt,Surface Burst
+Virginia,NS Norfolk,Military,36.9011,-76.3156,200kt,Surface Burst
+Virginia,NS Norfolk,Military,36.9834,-76.2813,200kt,Surface Burst
+Virginia,NSA Norfolk,Military,36.9832,-76.2807,400kt,Air Burst
+Virginia,NSA Norfolk,Military,36.8991,-76.3455,400kt,Air Burst
+Virginia,NSA Northwest Annex,Military,36.633,-76.2784,500kt,Air Burst
+Virginia,NSA Northwest Annex,Military,36.6519,-76.289,500kt,Air Burst
+Virginia,NSWC Dahlgren,Military,38.2691,-77.0137,500kt,Air Burst
+Virginia,NSWC Dahlgren,Military,38.2916,-77.0825,500kt,Air Burst
+Virginia,NSWC Dahlgren,Military,38.307,-77.1175,100kt,Surface Burst
+Virginia,NSWC Dahlgren,Military,38.3733,-77.1139,100kt,Surface Burst
+Virginia,NWS Yorktown,Military,37.2508,-76.5474,800kt,Air Burst
+Virginia,NWS Yorktown,Military,37.2128,-76.5612,800kt,Air Burst
+Virginia,NWS Yorktown,Military,37.2865,-76.6013,200kt,Surface Burst
+Virginia,NWS Yorktown,Military,37.1952,-76.5093,200kt,Surface Burst
+Virginia,NWS Yorktown,Military,37.2208,-76.4974,200kt,Surface Burst
+Virginia,SCSC Wallops Island,Military,37.8213,-75.4393,500kt,Air Burst
+Virginia,SCSC Wallops Island,Military,37.8754,-75.4487,500kt,Air Burst
+Virginia,SCSC Wallops Island,Military,37.8451,-75.4418,500kt,Air Burst
+Virginia,SCSC Wallops Island,Military,37.8604,-75.4556,100kt,Surface Burst
+Virginia,Mount Weather Operations Center,Military,39.0934,-77.8695,800kt,Air Burst
+Virginia,Mount Weather Operations Center,Military,39.1035,-77.862,800kt,Air Burst
+Virginia,Mount Weather Operations Center,Military,39.0285,-77.9231,800kt,Air Burst
+Virginia,Mount Weather Operations Center,Military,39.0249,-77.9013,800kt,Air Burst
+Virginia,Mount Weather Operations Center,Military,39.0343,-77.9003,200kt,Air Burst
+Virginia,Mount Weather Operations Center,Military,39.0395,-77.8683,200kt,Air Burst
+Washington,Jim Creek Naval Radio Station,Military,48.1998,-121.9179,1000kt,Air Burst
+Washington,Jim Creek Naval Radio Station,Military,48.1998,-121.9179,1000kt,Air Burst
+Washington,Jim Creek Naval Radio Station,Military,48.1998,-121.9179,1000kt,Air Burst
+Washington,Jim Creek Naval Radio Station,Military,48.1998,-121.9179,300kt,Surface Burst
+Washington,Jim Creek Naval Radio Station,Military,48.1998,-121.9179,400kt,Surface Burst
+Washington,Seattle,Economic,47.6493,-122.3904,1000kt,Air Burst
+Washington,Seattle,Economic,47.614,-122.3814,1000kt,Air Burst
+Washington,Seattle,Economic,47.6302,-122.3838,1000kt,Air Burst
+Washington,Seattle,Economic,47.66,-122.3412,1000kt,Air Burst
+Washington,Seattle,Economic,47.5756,-122.3468,1000kt,Air Burst
+Washington,Tacoma,Economic,47.2485,-122.0588,800kt,Air Burst
+Washington,Tacoma,Economic,47.2542,-122.0862,800kt,Air Burst
+Washington,Tacoma,Economic,47.285,-122.1653,800kt,Air Burst
+Washington,SeaTac,Economic,47.172,-122.2917,200kt,Surface Burst
+Washington,SeaTac,Economic,47.0488,-122.2911,200kt,Surface Burst
+Washington,Olympia,Government,47.1006,-122.8943,300kt,Air Burst
+Washington,Olympia,Government,47.015,-122.8674,300kt,Air Burst
+Washington,Kitsap,Military,47.701,-122.7026,400kt,Surface Burst
+Washington,Kitsap,Military,47.584,-122.6193,400kt,Surface Burst
+Washington,Kitsap,Military,47.6922,-122.593,400kt,Surface Burst
+Washington,Kitsap,Military,47.6341,-122.661,400kt,Surface Burst
+Washington,Kitsap,Military,47.6048,-122.6097,1000kt,Air Burst
+Washington,Fairchild AFB,Military,47.6432,-117.6872,1000kt,Air Burst
+Washington,Fairchild AFB,Military,47.6391,-117.6494,100kt,Surface Burst
+Washington,Fairchild AFB,Military,47.5979,-117.648,100kt,Surface Burst
+Washington,McChord AFB,Military,47.1721,-122.5242,200kt,Air Burst
+Washington,McChord AFB,Military,47.1168,-122.5062,200kt,Air Burst
+Washington,NAS Whidbey Island,Military,48.3266,-122.7314,200kt,Air Burst
+Washington,Bremerton,Military,47.6255,-122.6838,500kt,Air Burst
+Washington,Bremerton,Military,47.561,-122.6155,500kt,Air Burst
+Washington,Everett,Military,47.9535,-122.1386,800kt,Air Burst
+Washington,Everett,Military,47.9461,-122.1828,800kt,Air Burst
+Washington,Everett,Military,47.9244,-122.2673,200kt,Surface Burst
+Washington,Everett,Military,48.0244,-122.2287,200kt,Surface Burst
+Washington,Grand Coulee Dam,Economic,47.9078,-119.0371,200kt,Surface Burst
+Washington,Grand Coulee Dam,Economic,47.9079,-119.037,300kt,Surface Burst
+Washington DC,White House,Government,38.9401,-77.0862,1000kt,Surface Burst
+Washington DC,White House,Government,38.8743,-76.9771,1000kt,Surface Burst
+Washington DC,White House,Government,38.861,-77.071,1000kt,Surface Burst
+Washington DC,Capital Hill,Government,38.9401,-76.9864,800kt,Surface Burst
+Washington DC,Capital Hill,Government,38.9516,-77.0291,800kt,Surface Burst
+Washington DC,Capital Hill,Government,38.8263,-76.9688,800kt,Surface Burst
+Washington DC,Pentagon,Military,38.8641,-77.052,1000kt,Surface Burst
+Washington DC,Pentagon,Military,38.8842,-76.9998,1000kt,Surface Burst
+Washington DC,Pentagon,Military,38.9093,-76.9903,1000kt,Surface Burst
+West Virginia,Charleston,Government,38.2833,-81.6768,300kt,Air Burst
+West Virginia,Charleston,Government,38.3343,-81.643,300kt,Air Burst
+Wisconsin,Fort McCoy,Military,44.0208,-90.684,500kt,Air Burst
+Wisconsin,Fort McCoy,Military,44.0388,-90.6925,500kt,Air Burst
+Wisconsin,Fort McCoy,Military,44.0028,-90.6875,100kt,Surface Burst
+Wisconsin,Fort McCoy,Military,44.029,-90.6715,100kt,Surface Burst
+Wisconsin,Milwaukee,Economic,43.0831,-87.9371,500kt,Air Burst
+Wisconsin,Milwaukee,Economic,43.0039,-87.937,500kt,Air Burst
+Wisconsin,Milwaukee,Economic,43.0597,-87.9253,500kt,Air Burst
+Wisconsin,Madison,Government,43.1034,-89.4405,500kt,Air Burst
+Wisconsin,Madison,Government,43.0802,-89.3417,500kt,Air Burst
+Wisconsin,Green Bay,Economic,44.5333,-88.0258,400kt,Air Burst
+Wisconsin,Green Bay,Economic,44.514,-88.0115,400kt,Air Burst
+Wyoming,Cheyenne,Government,41.1575,-104.8487,200kt,Air Burst
+Wyoming,Cheyenne,Government,41.1366,-104.7756,200kt,Air Burst
+Wyoming,F.E. Warren AFB,Military,41.1603,-104.8543,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.0697,-104.8404,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1297,-104.9144,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1056,-104.8616,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1686,-104.881,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1575,-104.8475,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.0475,-104.9037,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1599,-104.9183,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1045,-104.8142,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.0786,-104.8819,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1249,-104.8424,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1767,-104.8277,200kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.0552,-104.8554,500kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1736,-104.91,500kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1652,-104.9037,500kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1534,-104.8079,500kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1156,-104.8851,800kt,Surface Burst
+Wyoming,F.E. Warren AFB,Military,41.1737,-104.8847,800kt,Surface Burst

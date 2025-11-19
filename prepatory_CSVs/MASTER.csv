@@ -1,0 +1,36 @@
+State,Nuclear Target Name,Target Type,ID,Latitude,Longitude
+California,Los Angeles,City,1,34.0536909,-118.242766
+California,San Diego,City,2,32.7174202,-117.162772
+California,San Francisco,City,3,37.7792588,-122.4193286
+Colorado,Denver,City,4,39.7392364,-104.984862
+Colorado,NORAD Peterson SFB,Command/Control,5,38.823611,-104.7013839
+District of Columbia,Washington D.C.,City,6,38.8950368,-77.0365427
+Florida,Miami,City,7,25.7741566,-80.1935973
+Georgia,Kings Bay Naval Base,Subs/Planes,8,30.7864963,-81.5610858
+Hawaii,VLF Transmitter Lualualei,Command/Control,9,21.420383,-158.153986
+Illinois,Chicago,City,10,41.8755616,-87.6244212
+Louisiana,Barksdale AFB,Subs/Planes,11,32.497523,-93.6108428
+Maine,VFL Transmitter Cutler,Command/Control,12,44.6419614,-67.2948322
+Missouri,Whiteman AFB,Subs/Planes,13,38.7299184,-93.5613436
+Montana,Malmstrom AFB,Minuteman III ICBM bases,14,47.5048651,-111.1785139
+Nebraska,"Strategic Command, Offutt AFB",Command/Control,15,41.115729,-95.923129
+Nevada,Las Vegas,City,16,36.1674263,-115.1484131
+New Jersey,Jamesburg 08831,City,17,40.3526079,-74.4401513
+New Jersey,Joint Base McGuire-Dix-Lakehurst,Subs/Planes,18,39.9983266,-74.5403654
+New Jersey,Camp Evans Wall Township,Command/Control,19,40.1888889,-74.0647222
+New Mexico,Kirtland AFB Albuquerque,Nuclear Storage Depot,20,35.0011307,-106.5157255
+New York,New York,City,21,40.7127281,-74.0060152
+North Dakota,Minot AFB,Minuteman III ICBM bases,22,48.420011,-101.3372095
+Pennsylvania,Philadelphia,City,23,39.9527237,-75.1635262
+Pennsylvania,Raven Rock Mountain Complex,Command/Control,24,39.732926,-77.4203552
+Pennsylvania,Saint Marys 15857 Summa Facility,Command/Control,25,41.513501,-78.4808702
+Texas,Dallas-Fort Worth,City,26,32.7372332,-97.2325704
+Texas,Houston,City,27,29.7589382,-95.3676974
+Texas,Pantex Plant,Storage Depot,28,35.3197277,-101.5796429
+Utah,Hill AFB,Storage Depot,29,41.1237635,-111.9739844
+Utah,Salt Lake City,City,30,40.7596198,-111.886797
+Virginia,Naval Station Norfolk,Subs/Planes,31,36.9416699,-76.297338
+Virginia,Pentagon,Command/Control,32,38.8691306,-77.054076
+Washington,Jim Creek Naval Radio Station,Command/Control,33,48.2222815,-121.9466215
+Washington,Naval Base Kitsap,Subs/Planes,34,47.7254515,-122.7192208
+Wyoming,F.E. Warren AFB,Minuteman III ICBM bases,35,41.1663407,-104.8627525
