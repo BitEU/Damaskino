@@ -327,28 +327,36 @@ void input_wind_profile(FalloutModel* model) {
                 }
             }
         } else {
-            // Estimate winds aloft using realistic atmospheric profile
+            // Estimate winds aloft using realistic atmospheric model
             double surface_speed = model->atmosphere.layers[0].speed_kts;
             double surface_dir = model->atmosphere.layers[0].direction_deg;
             
-            // Realistic wind speed multipliers based on typical atmospheric profiles
-            // Maximum speeds capped at realistic jet stream values (200-250 knots)
-            const double altitude_multipliers[NUM_WIND_LAYERS] = {
-                1.0,    // Surface (0 ft)
-                1.5,    // 5,000 ft
-                2.0,    // 10,000 ft
-                3.5,    // 20,000 ft - lower troposphere
-                5.0,    // 30,000 ft - approaching jet stream
-                6.5     // 50,000 ft - jet stream core
-            };
-            
-            // Maximum realistic wind speed for jet stream (knots)
-            const double MAX_JET_STREAM_SPEED = 250.0;
-            
             for (int i = 1; i < NUM_WIND_LAYERS; i++) {
-                // Apply altitude multiplier but cap at realistic maximum
-                double estimated_speed = surface_speed * altitude_multipliers[i];
-                model->atmosphere.layers[i].speed_kts = fmin(estimated_speed, MAX_JET_STREAM_SPEED);
+                // Realistic wind profile based on atmospheric observations
+                // Power law: V = V_surface * (h/h_ref)^alpha where alpha ≈ 0.14-0.20
+                // But cap maximum speeds to realistic jet stream values (200-250 knots)
+                double altitude_ft = WIND_ALTITUDES_FT[i];
+                double speed_multiplier;
+                
+                if (altitude_ft <= 10000) {
+                    // Lower atmosphere: gradual increase
+                    speed_multiplier = 1.0 + (altitude_ft / 10000.0) * 0.8;  // Up to 1.8x at 10k ft
+                } else if (altitude_ft <= 30000) {
+                    // Mid-troposphere: approach jet stream level
+                    speed_multiplier = 1.8 + ((altitude_ft - 10000.0) / 20000.0) * 1.2;  // 1.8x to 3.0x
+                } else {
+                    // Upper troposphere: jet stream region, cap at realistic values
+                    speed_multiplier = 3.0 + ((altitude_ft - 30000.0) / 20000.0) * 1.5;  // 3.0x to 4.5x
+                }
+                
+                double estimated_speed = surface_speed * speed_multiplier;
+                
+                // Cap at realistic maximum jet stream speeds (200-250 knots)
+                // Allow slightly higher if surface wind is already strong
+                double max_wind = 200.0 + (surface_speed * 0.5);  // Dynamic cap
+                if (max_wind > 250.0) max_wind = 250.0;
+                
+                model->atmosphere.layers[i].speed_kts = (estimated_speed > max_wind) ? max_wind : estimated_speed;
                 
                 // Direction veers with altitude (Ekman spiral, ~30° in upper levels)
                 model->atmosphere.layers[i].direction_deg = surface_dir + (i * 5.0);
