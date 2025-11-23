@@ -147,16 +147,32 @@ typedef struct {
 } FalloutModel;
 
 // Location names for terrain tiles
-static const char* LOCATION_NAMES[36] = {
-    "FLAT (NO TERRAIN)","Los Angeles","San Diego","San Francisco","Denver",
-    "NORAD Peterson SFB","Washington D.C.","Miami","Kings Bay Naval Base",
-    "VLF Lualualei","Chicago","Barksdale AFB","VFL Cutler","Whiteman AFB",
-    "Malmstrom AFB","Offutt AFB","Las Vegas","Jamesburg NJ","McGuire-Dix",
-    "Camp Evans","Kirtland AFB","New York","Minot AFB","Philadelphia",
-    "Raven Rock","St Marys Summa","Dallas-Fort Worth","Houston","Pantex Plant",
-    "Hill AFB","Salt Lake City","Norfolk Naval","Pentagon","Jim Creek",
-    "Naval Base Kitsap","F.E. Warren AFB"
+#define NUM_LOCATIONS 18
+// Location names for terrain tiles
+#define NUM_LOCATIONS 18
+static const char* LOCATION_NAMES[NUM_LOCATIONS+1] = {
+    "FLAT (NO TERRAIN)",
+    "Los Angeles",
+    "San Francisco",
+    "NORAD Peterson SFB",
+    "Washington D.C.",
+    "Chicago",
+    "Barksdale AFB",
+    "Whiteman AFB",
+    "Strategic Command, Offutt AFB",
+    "Jamesburg 08831",
+    "Joint Base McGuire-Dix-Lakehurst",
+    "Camp Evans Wall Township",
+    "Kirtland AFB Albuquerque",
+    "New York",
+    "Philadelphia",
+    "Raven Rock Mountain Complex",
+    "Saint Marys 15857 Summa Facility",
+    "Naval Station Norfolk",
+    "Naval Base Kitsap",
 };
+
+
 
 // Function prototypes
 void print_teletype_banner(void);
@@ -279,13 +295,13 @@ int select_location(FalloutModel* model) {
     char input[80];
     printf("\n*** TARGET LOCATION ***\n\n");
     printf(" 0: FLAT (no terrain)\n");
-    for(int i=1;i<=35;i++)printf("%2d: %s\n",i,LOCATION_NAMES[i]);
-    printf("\nSELECT LOCATION (0-35): ");
+    for(int i=1;i<=NUM_LOCATIONS;i++) printf("%2d: %s\n",i,LOCATION_NAMES[i]);
+    printf("\nSELECT LOCATION (0-%d): ", NUM_LOCATIONS);
     if(!fgets(input,sizeof(input),stdin))exit(0);
     if(strcmp(trim_input(input),"QUIT")==0)exit(0);
     int loc;
-    if(sscanf(input,"%d",&loc)!=1||loc<0||loc>35){
-        printf("ERROR: Enter 0-35.\n");return 0;
+    if(sscanf(input,"%d",&loc)!=1||loc<0||loc>NUM_LOCATIONS){
+        printf("ERROR: Enter 0-%d.\n", NUM_LOCATIONS);return 0;
     }
     if(loc==0){model->terrain.active=0;printf("\nUsing flat terrain model.\n");}
     else if(!load_terrain(model,loc)){
@@ -296,7 +312,7 @@ int select_location(FalloutModel* model) {
 
 // Load terrain from embedded data (4-bit delta encoded)
 int load_terrain(FalloutModel* model, int loc) {
-    if(loc<1||loc>35)return 0;
+    if(loc<1||loc>NUM_LOCATIONS) return 0;
     int off=TERRAIN_INDEX[loc-1][0],len=TERRAIN_INDEX[loc-1][1];
     if(len<6)return 0;
     const unsigned char*p=TERRAIN_BLOB+off;

@@ -196,6 +196,63 @@ def extract_tiles():
     print(f"\n  Total tile storage: {total_bytes:,} bytes ({total_bytes/1024:.1f} KB)")
     print()
 
+
+def update_c_source(names):
+    """Update FALLOUT_WSEG10.c so the LOCATION_NAMES array and menu bounds
+    match the locations listed in the CSV (names is the list of display names).
+    """
+    c_path = 'FALLOUT_WSEG10.c'
+    if not os.path.exists(c_path):
+        raise FileNotFoundError(c_path)
+
+    with open(c_path, 'r', encoding='utf-8') as f:
+        src = f.read()
+
+    # Build new block with a compile-time macro and the list (first entry is FLAT)
+    n = len(names)
+    entries = ['"FLAT (NO TERRAIN)"'] + [f'"{s.replace("\\", "\\\\").replace("\"", "\\\"")}"' for s in names]
+    block_lines = []
+    block_lines.append('// Location names for terrain tiles')
+    block_lines.append(f'#define NUM_LOCATIONS {n}')
+    block_lines.append(f'static const char* LOCATION_NAMES[NUM_LOCATIONS+1] = {{')
+    for e in entries:
+        block_lines.append(f'    {e},')
+    block_lines.append('};')
+    new_block = '\n'.join(block_lines) + '\n\n'
+
+    # Replace existing LOCATION_NAMES block
+    marker = 'Location names for terrain tiles'
+    pos = src.find(marker)
+    if pos == -1:
+        raise RuntimeError('Could not find LOCATION_NAMES block marker in C source')
+
+    decl_start = src.find('static const char* LOCATION_NAMES', pos)
+    if decl_start == -1:
+        raise RuntimeError('Could not find LOCATION_NAMES declaration in C source')
+
+    decl_end = src.find('\n};', decl_start)
+    if decl_end == -1:
+        raise RuntimeError('Could not find end of LOCATION_NAMES block in C source')
+    decl_end += 3  # include the closing '\n};'
+
+    src = src[:decl_start] + new_block + src[decl_end:]
+
+    # Update select menu loop, prompts and bounds (targeted replacements)
+    src = src.replace('i<=35', 'i<=NUM_LOCATIONS')
+    src = src.replace('SELECT LOCATION (0-35):', 'SELECT LOCATION (0-%d):')
+    # Replace the printf that displayed the prompt, adding the macro param
+    src = src.replace('printf("\nSELECT LOCATION (0-35): ");', 'printf("\nSELECT LOCATION (0-%d): ", NUM_LOCATIONS);')
+
+    src = src.replace('loc>35', 'loc>NUM_LOCATIONS')
+    src = src.replace('ERROR: Enter 0-35.\\n', 'ERROR: Enter 0-%d.\\n')
+    src = src.replace('printf("ERROR: Enter 0-35.\\n");return 0;', 'printf("ERROR: Enter 0-%d.\\n", NUM_LOCATIONS);return 0;')
+
+    # Also update the load_terrain bound check
+    src = src.replace('if(loc<1||loc>35)return 0;', 'if(loc<1||loc>NUM_LOCATIONS)return 0;')
+
+    with open(c_path, 'w', encoding='utf-8') as f:
+        f.write(src)
+
 # =============================================================================
 # STEP 3: GENERATE C HEADER FILE
 # =============================================================================
@@ -210,11 +267,16 @@ def generate_header():
         h.write("// 4-bit delta encoded elevation tiles\n")
         h.write("#ifndef TERRAIN_DATA_H\n#define TERRAIN_DATA_H\n\n")
 
-        # Collect all tile data
+        # Read CSV to determine which locations should be included and in what order
+        df = pd.read_csv(CSV_PATH)
+        ids = df['ID'].astype(int).tolist()
+        names = df['Nuclear Target Name'].astype(str).tolist()
+
+        # Collect all tile data (order follows CSV)
         offsets = []
         all_data = bytearray()
 
-        for loc in range(1, 36):
+        for loc in ids:
             fname = os.path.join(TILES_DIR, f"T{loc:02d}.BIN")
             if os.path.exists(fname):
                 with open(fname, 'rb') as f:
@@ -231,8 +293,9 @@ def generate_header():
             h.write("  " + ",".join(f"0x{b:02x}" for b in chunk) + ",\n")
         h.write("};\n\n")
 
-        # Write index
-        h.write("static const unsigned short TERRAIN_INDEX[35][2] = {\n")
+        # Write index - number of entries equals number of CSV rows
+        idx_count = len(offsets)
+        h.write(f"static const unsigned short TERRAIN_INDEX[{idx_count}][2] = {{\n")
         for loc, offset, length in offsets:
             h.write(f"  {{{offset},{length}}},  // T{loc:02d}\n")
         h.write("};\n\n")
@@ -244,6 +307,12 @@ def generate_header():
     print(f"  Terrain data: {len(all_data):,} bytes ({len(all_data)/1024:.1f} KB)")
     print(f"  Header file: {header_size:,} bytes ({header_size/1024:.1f} KB)")
     print()
+    # Update C source to match CSV locations (names ordering)
+    try:
+        update_c_source(names)
+        print(f"  Updated: FALLOUT_WSEG10.c (locations set to {len(names)})")
+    except Exception as e:
+        print(f"  WARNING: Could not update FALLOUT_WSEG10.c: {e}")
 
 # =============================================================================
 # MAIN
