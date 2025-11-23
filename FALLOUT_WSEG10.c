@@ -1,4 +1,12 @@
 /*
+ * Program Name: Damaskino
+ * Program Release Year: 2025
+ * Program Author: Steven S.
+ * Program Link: https://github.com/BitEU/Damaskino
+ * Purpose: Simulate nuclear fallout dispersion and radiation levels using the WSEG-10 model
+ */
+
+/*
  * WSEG-10 NUCLEAR FALLOUT PREDICTION MODEL
  * Ultra-detailed implementation for civil defense planning
  * 
